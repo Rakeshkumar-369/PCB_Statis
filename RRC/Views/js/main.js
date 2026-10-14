@@ -6,12 +6,12 @@
 
 
         /*---------------------------------------------*
-        * Carousel
+        * Carousel (Bootstrap 5)
         ---------------------------------------------*/
-        $('#Carousel').carousel({
-                interval: 5000,
-                item: 2
-            })
+        var rrcCarousel = document.getElementById('Carousel');
+        if (rrcCarousel && window.bootstrap) {
+            new bootstrap.Carousel(rrcCarousel, { interval: 5000 });
+        }
             /*------------------------*/
 
     });

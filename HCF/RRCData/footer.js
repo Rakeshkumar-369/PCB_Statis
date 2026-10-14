@@ -11,7 +11,7 @@
                     "</div>" +
                     "<div class='col-md-6'>" +
                         "<div class='designer'>" +
-                            "<p>A Design By <img src='../Assets/Images/aponline-logo.png' /></p>" +
+                            "<p>A Design By APTS</p>" +
                            
                         "</div>" +
                     "</div>" +

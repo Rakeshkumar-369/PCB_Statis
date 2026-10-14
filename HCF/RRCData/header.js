@@ -3,15 +3,12 @@
 
     "<section id='header'>" +
             "<div class='header-area'>" +
-                "<div class='header_menu text-center' data-spy='affix' data-offset-top='50' id='nav'>" +
+                "<div class='header_menu text-center' id='nav'>" +
                     "<div class='container'>" +
-                        "<nav class='navbar navbar-default zero_mp '>" +
+                        "<nav class='navbar navbar-expand-lg navbar-light zero_mp '>" +
                             "<div class='navbar-header'>" +
-                                "<button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1' aria-expanded='false'>" +
-                                    "<span class='sr-only'></span>" +
-                                    "<span class='icon-bar'></span>" +
-                                    "<span class='icon-bar'></span>" +
-                                    "<span class='icon-bar'></span>" +
+                                "<button type='button' class='navbar-toggler' data-bs-toggle='collapse' data-bs-target='#bs-example-navbar-collapse-1' aria-expanded='false' aria-label='Toggle navigation'>" +
+                                    "<span class='navbar-toggler-icon'></span>" +
                                 "</button>" +
 
                                 "<a class='navbar-brand custom_navbar-brand' href='https://www.g20.org/en/' target='_blank'>" +
@@ -29,9 +26,9 @@
 
 
 "<li class='dropdown'>" +
- "<a href='#' class='dropdown-toggle' data-toggle='dropdown' data-hover='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>" +
+ "<a href='#' class='dropdown-toggle' data-bs-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>" +
     " GO's  <span class='caret'></span></a>" +
-	"<ul class='dropdown-menu2'>" +
+	"<ul class='dropdown-menu'>" +
 	"<li><a href='/RRC/Views/NGT_Orders.aspx'>NGT Orders</a></li>" +
         "<li><a href='/RRC/Views/Government_Orders.aspx'>Government Orders</a></li>" +
         "<li><a href='/RRC/Views/Minutes_Of_Meetings.aspx'>Minutes Of Meetings</a></li>" +

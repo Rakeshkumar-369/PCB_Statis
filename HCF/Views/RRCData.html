@@ -3,11 +3,13 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head><script>/*static-mirror:network-disabled*/(function(){try{var pending=function(){return new Promise(function(){});};window.fetch=pending;var n=function(){};window.XMLHttpRequest=function(){this.open=n;this.send=n;this.setRequestHeader=n;this.abort=n;this.addEventListener=n;this.removeEventListener=n;this.getAllResponseHeaders=function(){return "";};this.getResponseHeader=function(){return null;};this.readyState=0;this.status=0;};if(window.jQuery&&window.jQuery.ajax){window.jQuery.ajax=function(){return window.jQuery.Deferred().promise();};}}catch(e){}})();</script><title>
+<head><script src="../../js/inline/block-babe4ac6.js"></script><title>
 
 </title>
     
-    <script src="../Assets/js/jquery-3.6.0.min.js"></script>
+    <script src="../Assets/js/jquery-4.0.0.min.js"></script>
+    <script src="../Assets/js/jquery-migrate-4.0.2.min.js"></script>
+    <script type="text/javascript" src="../Assets/js/bootstrap.bundle.min.js"></script>
     <link href="../Assets/datatables/jquery.dataTables.min.css" rel="stylesheet" /><link href="../Assets/datatables/buttons.dataTables.min.css" rel="stylesheet" />
     <script src="../Assets/js/html2Canvas.min.js"></script>
     <script src="../Assets/datatables/jquery.dataTables.min.js"></script>
@@ -294,31 +296,7 @@
     </style>
 
     
-    <script>
-        function SearchData() {
-            var River = $("#ddlriver").val();
-            if (River == "00" || River == undefined || River == null) {
-                $("#ddlriver").focus();
-                alert('Please Select  River');
-                return false;
-            }
-            var Year = $("#ddlyear").val();
-            if (Year == "00" || Year == undefined || Year == null) {
-                $("#ddlyear").focus();
-                alert('Please Select  Year');
-                return false;
-            }
-            var Location = $("#ddllocation").val();
-            if (Location == "00" || Location == undefined || Location == null) {
-                $("#ddllocation").focus();
-                alert('Please Select  Location ');
-                return false;
-            }
-
-            $('#loader').show();
-
-        }
-    </script>
+    <script src="../../js/inline/SearchData-4c88374e.js"></script>
 </head>
 <body>
     
@@ -341,21 +319,7 @@
 
 </div>
 
-<script type="text/javascript">
-//<![CDATA[
-var theForm = document.forms['ctl01'];
-if (!theForm) {
-    theForm = document.ctl01;
-}
-function __doPostBack(eventTarget, eventArgument) {
-    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
-        theForm.__EVENTTARGET.value = eventTarget;
-        theForm.__EVENTARGUMENT.value = eventArgument;
-        theForm.submit();
-    }
-}
-//]]>
-</script>
+<script src="../../js/inline/__doPostBack-7190dd2c.js"></script>
 
 
 <script src="../WebResource--d-pyngkmcfuv13he1qd6-tzdakrct3yqqkjpcymww43xcukz1-b6l9i7dccb.axd" type="text/javascript"></script>
@@ -368,11 +332,7 @@ function __doPostBack(eventTarget, eventArgument) {
 	
 	
 </div>
-                            <script type="text/javascript">
-//<![CDATA[
-Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'ctl01', ['tUpdatePanel1','UpdatePanel1'], [], [], 90, '');
-//]]>
-</script>
+                            <script src="../../js/inline/block-d862e296.js"></script>
 
                             <div id="UpdatePanel1">
 	
