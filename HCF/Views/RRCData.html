@@ -1,0 +1,586 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><script>/*static-mirror:network-disabled*/(function(){try{var pending=function(){return new Promise(function(){});};window.fetch=pending;var n=function(){};window.XMLHttpRequest=function(){this.open=n;this.send=n;this.setRequestHeader=n;this.abort=n;this.addEventListener=n;this.removeEventListener=n;this.getAllResponseHeaders=function(){return "";};this.getResponseHeader=function(){return null;};this.readyState=0;this.status=0;};if(window.jQuery&&window.jQuery.ajax){window.jQuery.ajax=function(){return window.jQuery.Deferred().promise();};}}catch(e){}})();</script><title>
+
+</title>
+    
+    <script src="../Assets/js/jquery-3.6.0.min.js"></script>
+    <link href="../Assets/datatables/jquery.dataTables.min.css" rel="stylesheet" /><link href="../Assets/datatables/buttons.dataTables.min.css" rel="stylesheet" />
+    <script src="../Assets/js/html2Canvas.min.js"></script>
+    <script src="../Assets/datatables/jquery.dataTables.min.js"></script>
+    <script src="../Assets/datatables/dataTables.buttons.min.js"></script>
+    <script src="../Assets/datatables/jszip.min.js"></script>
+    <script src="../Assets/datatables/buttons.html5.min.js"></script>
+    <script src="../Assets/datatables/buttons.colVis.min.js"></script>
+    <script src="../Assets/datatables/buttons.print.min.js"></script>
+    <script src="../Assets/datatables/dataTables.fixedHeader.min.js"></script>
+
+
+    <link href="../Assets/css/font-awesome.min.css" rel="stylesheet" /><link href="../Assets/animated/animate.min.css" rel="stylesheet" /><link href="../Assets/css/bootstrap.min.css" rel="stylesheet" />
+
+
+
+
+
+
+    
+    <style>
+        #welcome {
+            min-height: 350px;
+            background: #fff;
+            
+        }
+
+        .wel_header {
+            text-align: center;
+            color: #222222;
+            padding-top: 20px;
+        }
+
+            .wel_header h2 {
+                font-size: 25px;
+                text-transform: uppercase;
+                font-weight: 700;
+                padding: 5px;
+                font-family: 'Roboto slab',serif !important;
+                color: #fff;
+                background:#198754;
+                margin-bottom:30px;
+                border-radius:15px;
+            }
+
+            .wel_header p {
+                font-size: 18px;
+                font-family: 'Opens Sans',sans-serif;
+            }
+
+        .custom-btn {
+            padding: 8px 20px;
+            background: #43a906;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 700;
+            border: 0px;
+            border-radius: 2px;
+            letter-spacing: 5px;
+            font-size: 14px;
+            font-family: 'Roboto slab',serif !important;
+            outline: 0 !important;
+        }
+        .custom-btn h3{
+            font-weight:bold;
+            margin-bottom:0px;
+            font-size:15px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h3 {
+            font-size: 24px;
+        }
+
+        #welcome th {
+            color: white !important;
+            background: gray;
+        }
+
+        @media(min-width:1200px) {
+            .container {
+                width: 1170px;
+            }
+        }
+
+        @media (min-width:768px) {
+            .navbar-toggle {
+                display: none;
+            }
+        }
+
+        #header .header_menu {
+            min-height: 80px;
+            /*border-bottom: 1px solid #3D3E3D;*/
+            z-index: 9999;
+        }
+
+        .navbar-default .navbar collapse,
+        .navbar-default .navbar-form {
+            background-color: #e7e7e7;
+        }
+
+        @media(min-width:768px) {
+            .navbar-collapse.collapse {
+                display: block !important;
+                height: auto !important;
+                padding-bottom: 0;
+                overflow: visible !important;
+            }
+        }
+
+        @media(min-width:768px) {
+            .navbar-right {
+                float: right !important;
+            }
+        }
+
+        #header .header_menu ul.main_menu li, #header .header_menu ul.main_menu li.active a {
+            display: inline-block;
+            position: relative;
+        }
+
+        @media(min-width:768px) {
+            .navbar-nav > li {
+                float: left;
+            }
+        }
+
+        #header .header_menu ul.main_menu li a {
+            color: #393939;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-family: 'Roboto slab',serief !important;
+            text-decoration: none;
+        }
+
+        .navbar-nav {
+            flex-direction: unset;
+        }
+
+        .nav > li > a {
+            position: relative;
+            display: block;
+            padding: 10px 15px;
+        }
+
+        ul li:hover ul {
+            display: block;
+        }
+
+        .dropdown-menu2 {
+            position: absolute;
+            top: 100%;
+            z-index: 1000;
+            display: none;
+            min-width: 200px;
+            padding: 5px 0px;
+            margin: 2px 0;
+            font-size: 14px;
+            text-align: left;
+            list-style: none;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid rgba(0,0,0,1.5);
+            border-radius: 4px;
+            box-shadow: 0 6px 12px rgba(0,0,0,1.75);
+        }
+
+            .dropdown-menu2 > li > a {
+                display: block;
+                padding: 3px 20px;
+                clear: both;
+                line-height: 1.42857143;
+                white-space: nowrap;
+            }
+
+        #header .header_menu ul.main_menu li a:hover {
+            color: #4DA91C;
+        }
+
+        #header .header_menu ul.main_menu li:after {
+            content: '';
+            display: block;
+            margin: auto;
+            height: 3px;
+            width: 0px;
+            background: transparent;
+            transition: width .5s ease,background-color .5s ease;
+            margin-top: 6px;
+        }
+        #footer{
+            min-height:50px;
+            background:#222222;
+            color:#fff;
+            padding-top:10px;
+            font-size:14px;
+        }
+         .designer {
+            padding-left:383px
+        }
+         .copyright {
+            padding-right:265px
+        }
+    </style>
+
+    
+    <style>
+        .Page_Name {
+            text-align: center;
+            font-weight: bold;
+            font-family: 'auto';
+            font-size: 20px;
+            padding-bottom: 3px;
+            color:#279562;
+            width:460px;
+            margin:auto;
+            border:1px solid;
+            margin-bottom:30px;
+            border-radius:15px;
+        }
+
+        div.dt-buttons {
+            float: right;
+            margin-left: 10px;
+        }
+
+        button.dt-button.buttons-excel.buttons-html5 {
+            background: green !important;
+            margin-top: 6px;
+        }
+
+        button.dt-button {
+            background: pink !important;
+        }
+
+            button.dt-button.buttons-print {
+                background: #bb5b87 !important;
+            }
+
+        .header th {
+            border: 1px solid #bbb;
+            background-color: #074a86;
+            color: white;
+        }
+
+
+        thead th:first-child {
+            display: none;
+        }
+
+        .gvRow td:first-child {
+            display: none;
+        }
+
+            .gvRow td:first-child dataTables_empty {
+                display: none;
+            }
+
+        td.dataTables_empty {
+            display: none;
+        }
+
+
+        .header th {
+            border: 1px solid #747474;
+        }
+
+
+        .gvRow tr:nth-child(odd) td {
+            border: 1px solid #bbb;
+        }
+
+        .gvRow tr:nth-child(even) td {
+            border: 1px solid #bbb;
+        }
+        .bx-shadow{
+            box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding:20px;
+           /* margin-top:20px;*/
+        }
+    </style>
+
+    
+    <script>
+        function SearchData() {
+            var River = $("#ddlriver").val();
+            if (River == "00" || River == undefined || River == null) {
+                $("#ddlriver").focus();
+                alert('Please Select  River');
+                return false;
+            }
+            var Year = $("#ddlyear").val();
+            if (Year == "00" || Year == undefined || Year == null) {
+                $("#ddlyear").focus();
+                alert('Please Select  Year');
+                return false;
+            }
+            var Location = $("#ddllocation").val();
+            if (Location == "00" || Location == undefined || Location == null) {
+                $("#ddllocation").focus();
+                alert('Please Select  Location ');
+                return false;
+            }
+
+            $('#loader').show();
+
+        }
+    </script>
+</head>
+<body>
+    
+    <script src="../RRCData/header.js"></script>
+    
+
+    <section id="welcome">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="bx-shadow">
+                    <div class="wel_header">
+                        <h2>Water Quality Monitoring</h2>
+                        
+                        
+<div class="aspNetHidden">
+
+
+
+
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['ctl01'];
+if (!theForm) {
+    theForm = document.ctl01;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="../WebResource--d-pyngkmcfuv13he1qd6-tzdakrct3yqqkjpcymww43xcukz1-b6l9i7dccb.axd" type="text/javascript"></script>
+
+
+<script src="../Scripts/WebForms/MsAjax/MicrosoftAjax.js" type="text/javascript"></script>
+<script src="../Scripts/WebForms/MsAjax/MicrosoftAjaxWebForms.js" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	
+	
+</div>
+                            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'ctl01', ['tUpdatePanel1','UpdatePanel1'], [], [], 90, '');
+//]]>
+</script>
+
+                            <div id="UpdatePanel1">
+	
+                                    <div id="loader" style="display: none; text-align: center">
+                                        <div class="overlay">
+                                            <div class="overlayContent">
+                                                <img src="../Assets/Images/loader.gif" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <section style="padding-top: 0px; padding-bottom: 10px;">
+                                        <div>
+                                            <h3 class="Page_Name">River Wise Data Representation & Data Report</h3>
+                                        </div>
+                                    </section>
+                                    <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-3 col-xs-3 mb-1" style="text-align:left">
+                                            <label><b>Rivers:</b> <span style="color: red">*</span></label>
+                                            
+                                        </div>
+                                        <div class="col-sm-3 col-md-3 col-xs-3 mb-1" style="text-align:left">
+                                            <label><b>Year:</b> <span style="color: red">*</span></label>
+                                            
+                                        </div>
+                                        <div class="col-sm-3 col-md-3 col-xs-3 mb-1" style="text-align:left">
+                                            <label><b>Location:</b> <span style="color: red">*</span></label>
+                                            
+                                        </div>
+                                         <div class="col-sm-3 col-md-3 col-xs-3 mb-1" style="text-align:left">
+                                              
+                                             </div>
+
+                                    </div>
+                                        </div>
+                                    <div class="row" style="text-align: right;margin-top:30px;margin-bottom:20px;">
+                                        <div class="col-sm-8 col-md-8 col-xs-8 mb-1">
+                                            
+                                        </div>
+                                        <div class="col-sm-4 col-md-4 col-xs-4 mb-1">
+                                           
+                                        </div>
+
+                                    </div>
+                                    
+                                
+</div>
+
+                        
+                        
+                        <br />
+                        
+                        <div>
+                            <p align="left">
+                                <button class="custom-btn" font-bold="True">
+                                    <span style="float: right; color: white; font-weight: bold;">
+                                        <h3><a href="../../RRC/Views/Monitoring_DBNew.html" target="_blank" style="color: White; text-decoration: none">View Archive </a></h3>
+                                    </span>
+                                </button>
+                            </p>
+                            
+
+                            <p align="justify">
+                                Water is second essential commodity for the survival of living beings including mankind of the earth.
+                            Increase of population, urbanization and industrialization are the important factors resulting in pollution of water resources.
+                            For management of water quality of a water body one has to define the requirements and objectives. The main uses of water are drinking,
+                            bathing & recreation, fisheries, wild life propagation, irrigation, industrial purposes, etc.
+                            </p>
+                            <br />
+                            <p align="justify">
+                                While implementing the provisions of the Water (Prevention and Control) Act, 1974, CPCB has defined the wholesomeness in terms of water quality
+                            requirements for protection of human uses and accordingly, it has set water quality objectives for different water bodies. If a water body or
+                            part of it is used for more than one use, then the use which demands highest quality of water was termed as “Designated Best Use” (DBU) and
+                            accordingly the water body or its parts are designated. All the major reverine systems of the country are classified in five categories on
+                            the basis of DBU concept.
+                            </p>
+                            <br />
+                            <h3>*CPCB Water Quality Criteria for Designated Best Use</h3>
+
+                            <table width="100" border="1" style="text-align: left; font-size: 16px; font-family: Sans-Serif;" class="table table-bordered wel_header">
+                                <tr>
+                                    <th style="text-align: center">Designated-best- use
+                                    </th>
+                                    <th style="text-align: center">Class of water
+                                    </th>
+                                    <th style="text-align: center">Criteria
+                                    </th>
+
+                                </tr>
+                                <tr>
+                                    <td>Drinking Water Source without
+                                    conventional treatment but after
+                                    disinfection.
+                                    </td>
+                                    <td>A
+                                    </td>
+                                    <td>
+                                        <ul style="text-align: Left">
+                                            <li>Total Coli forms Organism MPN/100 ml shall be 50 or less.</li>
+                                            <li>PH between 6.5 and 8.5</li>
+                                            <li>Dissolved oxygen 6 mg/l or more.</li>
+                                            <li>Biochemical Oxygen Demand 5 days 20°C 2mg/l or less.</li>
+                                        </ul>
+
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>Outdoor bathing (Organized)
+                                    </td>
+                                    <td>B
+                                    </td>
+                                    <td>
+                                        <ul style="text-align: Left">
+                                            <li>Total Coli forms Organism MPN/100 ml shall be 500 or less. </li>
+                                            <li>pH between 6.5 and 8.5  </li>
+                                            <li>Dissolved oxygen 5 mg/l or more.</li>
+                                            <li>Biochemical Oxygen Demand 5 days 20°C 3mg/l or less.</li>
+                                        </ul>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>Drinking Water Source after
+                                    conventional treatment   and
+                                    disinfection.
+                                    </td>
+                                    <td>C
+                                    </td>
+                                    <td>
+                                        <ul style="text-align: Left">
+                                            <li>Total Coli forms Organism MPN/100 ml shall be 5000 or less.</li>
+                                            <li>pH between 6 to 9</li>
+                                            <li>Dissolved oxygen 4 mg/l or more.</li>
+                                            <li>Biochemical Oxygen Demand 5 days 20°C 3mg/l or less</li>
+                                        </ul>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>Propagation of Wild life and
+                                    Fisheries.
+                                    </td>
+                                    <td>D
+                                    </td>
+                                    <td>
+                                        <ul style="text-align: Left">
+                                            <li>pH between 6.5 to 8.5  </li>
+                                            <li>Dissolved oxygen 4 mg/l or more.  </li>
+                                            <li>Free Ammonia (as N) 1.2 mg/l or less  </li>
+                                            <li>pH   between 6.0 to 8.5.  </li>
+                                        </ul>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>Irrigation, Industrial Cooling,
+                                    Controlled Waste disposal.
+                                    </td>
+                                    <td>E
+                                    </td>
+                                    <td>
+                                        <ul style="text-align: Left">
+                                            <li>Electrical Conductivity at 25°C micro mhos/cm Max. 2250. </li>
+                                            <li>Sodium Absorption ratio Max. 26 </li>
+                                            <li>Boron Max.2 mg/l. </li>
+                                        </ul>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Below - E
+                                    </td>
+                                    <td>Not Meeting A, B, C, D & E Criteria.
+                                    </td>
+
+                                </tr>
+
+                            </table>
+
+
+                            <br />
+                            <h3 align="left">Water Quality Monitoring of Rivers:</h3>
+                            <br />
+                            <p align="justify">
+                                Andhra Pradesh Pollution Control Board (APPCB) is monitoring water quality of rivers, lakes, canals, drains, ground water, coastal waters, etc.
+                            in the State of Andhra Pradesh on regular basis.Rivers, Godavari, Krishna, Pennar, Tungabhadra, Nagavali, Vamsadhara and Kundu are monitored
+                            for water quality at various points under National Water Quality Monitoring Programme (NWMP) regularly on monthly basis.
+
+                            </p>
+                            <br />
+
+                            <p align="justify">
+                                Water quality monitoring data is regularly updated  in the APPCB website for the benefit of general public.
+
+                            </p>
+                        </div>
+                        
+                    </div>
+                        </div>
+                    <br />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="../RRCData/footer.js"></script>
+</html>

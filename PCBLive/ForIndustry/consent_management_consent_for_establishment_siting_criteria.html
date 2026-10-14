@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script>/*static-mirror:network-disabled*/(function(){try{var pending=function(){return new Promise(function(){});};window.fetch=pending;var n=function(){};window.XMLHttpRequest=function(){this.open=n;this.send=n;this.setRequestHeader=n;this.abort=n;this.addEventListener=n;this.removeEventListener=n;this.getAllResponseHeaders=function(){return "";};this.getResponseHeader=function(){return null;};this.readyState=0;this.status=0;};if(window.jQuery&&window.jQuery.ajax){window.jQuery.ajax=function(){return window.jQuery.Deferred().promise();};}}catch(e){}})();</script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> APPCB</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/appcblogo.ico" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../csk/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link href="../css/custom.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css" />
+    <link href="../css/MasterPage.css" rel="stylesheet" type="text/css" />
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script type="text/javascript">
+
+        function divPopup() {
+            $('#myModal').modal('show');
+
+            $('#myModal').modal({
+                backdrop: true,
+                keyboard: true
+            })
+        }
+
+    </script>
+    <style type="text/css">
+        .fcopy .row {
+            margin: 0px !important;
+        }
+
+        @media (min-width:960px) {
+            .h4, h4 {
+                font-size: 1.1rem;
+            }
+
+            .h3, h3 {
+                font-size: 1.45rem;
+            }
+
+            .nav-item.dropdown:hover ul.dropdown-menu {
+                display: block;
+            }
+        }
+
+        .bbox a {
+            text-decoration: none;
+        }
+
+        .bbox .d-block {
+            margin-right: 5px !important;
+        }
+
+        .customer-logos slide {
+            animation: slidein 30s linear infinite;
+            white-space: nowrap;
+            width: calc(100% / 5);
+        }
+
+            .customer-logos slide img {
+                animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+            }
+
+        @keyframes slidein {
+            from {
+                transform: translate3d(0, 0, 0);
+            }
+
+            to {
+                transform: translate3d(-100%, 0, 0);
+            }
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @media (min-width: 120px) {
+            .container {
+                min-width: 1300px !important;
+                max-width: 1300px !important;
+                width: 1300px !important;
+            }
+        }
+
+        .logodiv img {
+            display: unset;
+        }
+
+        .lgo ul li {
+            list-style: none;
+        }
+    </style>
+</head>
+<body style="padding:20px">
+    
+    <div class='header'><div class='text-center'> <div class='row'><div class='col-3'><ul class='d-flex lgo'><li style='width: 53%; list-style: none'><a href='#' target='_blank'><img src='../images/ap.png' class='img-fluid logoimg' /></a></li>   </ul></div><div class='col-7 px-0'><a href='#' target='_blank'><img src='../images/appcb_logo.png' class='img-fluid logoimg' /></a></div><div class='col-2 px-0'><a href=' http://missionlife-moefcc.nic.in/' target='_blank'><img src='../images/Mission_life_Logo.png' class='img-fluid logoimg' /></a></div> </div> </div> </div> <nav class='navbar sticky-top navbar-expand-lg navbar-main'> <div class='container-fluid'> <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'> <span class='navbar-toggler-icon'></span> </button> <div class='collapse navbar-collapse' id='navbarSupportedContent'> <ul class='navbar-nav mx-auto mb-2 mb-lg-0'> <li class='nav-item'> <a class='nav-link active' aria-current='page'  href='../PCB/Pcbhome.html'>Home</a> </li> <li class='nav-item dropdown'> <a class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>    About Us  </a> <ul class='dropdown-menu'> <li><a class='dropdown-item' href='../AboutUs/Overview.html'>Overview</a></li> <li><a class='dropdown-item' href='../AboutUs/Ourmotto.html'>Standard Operating Procedures [SOPs]</a></li> <li><a class='dropdown-item' href='../AboutUs/Vision.html'>Vision &amp; Mission</a></li> <li><a class='dropdown-item' href='../AboutUs/AnnualReports.html'>Annual Reports</a></li> <li><a class='dropdown-item' href='../AboutUs/BoardMembers.html'>Board Members</a></li> <li><a class='dropdown-item' href='../AboutUs/Capacity.html'>Capacity Building</a></li> <li><a class='dropdown-item' href='../Divisions/Technical.html'>Technical Division</a></li> <li><a class='dropdown-item' href='../Divisions/Scientific.html'>Scientific Division</a></li> <li><a class='dropdown-item' href='../AboutUs/PollutionContent.html'>Environment Acts &amp; Rules</a></li> <li><a class='dropdown-item' href='../ForIndustry/CPCBGuidelines.html'>CPCB GuideLines</a></li> <li><a class='dropdown-item' href='../ForIndustry/Rules.html'>Rules</a></li> </ul> </li>    <li class='nav-item dropdown'> <a class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'> FOR INDUSTRY </a> <ul class='dropdown-menu'>  <li><a class='dropdown-item' href='../ForIndustry/Guidelinesforindustry.html'>Guidelines for Industries</a></li> <li><a class='dropdown-item' href='../ForIndustry/CategoriesofIndustries.html'>Categories of Industries</a></li> <li><a class='dropdown-item' href='../ForIndustry/ProcedureforOnlineConnectivity.html'>Procedure for online connectivity</a></li>    <li><a class='dropdown-item' href='../ForIndustry/CommonEffluent.html'>Common Effluent Treatment Plants</a></li> <li><a class='dropdown-item' href='../ForIndustry/SopsforIndustries.html'>SOP's for Industries</a></li> <li><a class='dropdown-item' href='../ForPublic/petcokeutilisation.html'>Pet Coke Utilisation</a></li> <li><a class='dropdown-item' href='#' target='_blank'>Bio Medical Waste</a></li> <li><a class='dropdown-item' href='../ForIndustry/EprPortal.html'>EPR Portals of CPCB</a></li> <li><a class='dropdown-item' href='../../APPCBDOCS/Tenders_Noti/Jan%202025%20New%20Categorisation%20of%20industries.pdf' target='_blank'>New Classification of Industries</a></li> </ul> </li> <li class='nav-item dropdown'> <a class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>    FOR PUBLIC </a> <ul class='dropdown-menu'> <li><a class='dropdown-item' href='../ForPublic/JointCommitteeReport.html'>Joint Committee Meetings</a></li> <li><a class='dropdown-item' href='../PCB/MissionLife.html'>Mission LIfe</a></li> <li><a class='dropdown-item' href='../ForPublic/PublicHearings.html'>Public Hearings</a></li> <li><a class='dropdown-item' href='../ForPublic/CitizenCharter.html'>CitizenCharter</a></li> <li><a class='dropdown-item' href='../ForPublic/research_fellowship_scheme.html'>Research Fellowship Scheme</a></li> <li><a class='dropdown-item' href='../ForPublic/Non_AttainmentCities_ActionPlans_Progress.html'>Non-Attainment Cities-Action Plans-Progress</a></li> <li><a class='dropdown-item' href='../ForPublic/faqs.html'>FAQ's</a></li> <li><a class='dropdown-item' href='../ForPublic/EnvironmentPlan.html' target='_blank'>Environment Plan</a></li> <li><a class='dropdown-item' href='../AboutUs/RTI.html'>RTI</a></li> </ul>  </li> <li class='nav-item'><a class='nav-link'  href='../PCB/ContactUs.html'>Contact Us</a></li> <li class='nav-item'><a class='nav-link'  href='../PCB/ArticalsView.html'>MEDIA</a></li> <li class='nav-item dropdown'> <a class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>    LOGINS </a> <ul class='dropdown-menu'> <li><a class='dropdown-item' href='https://apindustries.gov.in/CIS/' target='_blank'>Online Allocation of Inspectors</a></li> <li><a class='dropdown-item' href='http://apocmms.nic.in/APPCB/' target='_blank'>Online Consent Management & Monitoring System (OCMMS)</a></li> <li><a class='dropdown-item' href='http://aprtpms.ap.gov.in/' target='_blank'>Real Time Pollution Monitoring System(RTPMS)</a></li>     </ul>  </li> </ul>  </div> </div> </nav>
+    <div class="row">
+        
+
+    <style>
+li{
+  font-size : 14px !important;
+}
+th {
+    color: white !important;
+}
+.table{
+font-size: 14px !important;
+}
+</style>    </style>
+
+
+
+
+
+
+
+<div" id="cskw">
+        <div class="row" style="margin-top: 20px;">
+            <br>            
+           
+            <div class="tabs-class">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist" style="">
+                    <li role="presentation"><a href="functions_consent_for_establishment_how_to_apply_2.html">
+                        How to Apply?</a></li>
+                    <li role="presentation"><a href="consent_management_consent_for_establishment_siting_criteria.html">
+                        APPCB Siting Criteria</a></li>
+                    <li role="presentation"><a href="consent_management_consent_for_establishment_categories_of_industries_3.html">
+                        Categories of Industries</a></li>
+                    <li role="presentation"><a href="consent_management_consent_for_establishment_fee_structure.html">
+                        Fee Structure</a></li>
+                    <li role="presentation"><a href="consent_management_consent_for_establishment_delegation_of_power.html">
+                        Delegation of Power</a></li>
+                    <li role="presentation"><a href="consent_management_consent_for_establishment_cfe_orders_issued_3.html">
+                        CFE Orders Issued</a></li>
+                    <li role="presentation"><a href="consent_management_consent_for_establishment_cfe_committee_meetings.html">
+                        CFE Committee Meetings</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <hr class="bluebdr">
+                <div class="tab-content">
+                    <h2 class="Page_Name">
+                        APPCB Siting Criteria</h2>
+                    <p>
+                        The APPCB follows a set of guidelines in granting Consent for establishment to different
+                        industries. The guidelines that different industries have to follow are given below
+                        based on the Industry type. Please click on your relevant industry to access guidelines.
+                    </p>
+                   <h4 style="text-align: justify;" class="Sub_heading">
+            <span class="">Guidelines for different Industries</span></h4>
+                    <ul class="guidelines">
+                        <li><i></i>&nbsp;Guidelines for Cement Grinding Units (Upto 50 TPD)</li>
+                        <li><i></i>&nbsp;Guidelines for Stone Crushing Units</li>
+                        <li><i></i>&nbsp;Guidelines for Dairy Units</li>
+                        <li><i></i>&nbsp;Guidelines for LPG Bottling Units</li>
+                        <li><i></i>&nbsp;Guidelines for Cashew Processing units</li>
+                        <li><i></i>&nbsp;Guidelines for Pulverizing Units</li>
+                        <li><i></i>&nbsp;Guidelines for Para Boiling Rice Mills Units</li>
+                        <li><i></i>&nbsp;Guidelines for Pesticide formulation Units</li>
+                        <li><i></i>&nbsp;Guidelines for Sponge Iron Units (CPCB)</li>
+                        <li><i></i>&nbsp;Siting Guidelines from Transportation/Communication System.</li>
+                    </ul>
+                   <h4 style="text-align: justify;" class="Sub_heading">
+            <span class="">Guidelines for Cement Grinding Units (Upto 50 TPD)</span></h4>
+                    <ul class="guidelines">
+                        <li><i></i>&nbsp;The distance between the boundary of the site and boundary of the
+                            <ol type="i">
+                                <li>&nbsp;<b>National Highway shall be -100 m</b></li>
+                                <li>&nbsp;<b>State High way shall be – 50 m</b></li>
+                                <li>&nbsp;<b>M.D.R./Village roads shall be – 25 m</b></li>
+                            </ol>
+                        </li>
+                        <li><i></i>&nbsp;The minimum distance between the boundary of the site and human habitation
+                            (boundary of Town, Village etc.) shall be 500 m as the pollution is anticipated
+                            from fugitive emissions only.</li>
+                        <li><i></i>&nbsp;Green belt of 20 m width shall be developed along the boundary.</li>
+                        <li><i></i>&nbsp;Total area of land acquired – Ac. 1.5</li>
+                        <li><i></i>&nbsp;Minimum capacity of the unit shall be 20 TPD.</li>
+                        <li><i></i>&nbsp;Bag filter for grinding as well as cement silo either combined or separately
+                            to be provided for units with capacity more than 50 TPD.</li>
+                    </ul>
+                   <h4 style="text-align: justify;" class="Sub_heading">
+            <span class="">Stone Crushing Units</span></h4>
+                    <ul class="guidelines">
+                        <li><i></i>&nbsp;The distance between the boundary of the site and boundary of the
+                            <ol type="i">
+                                <li>&nbsp;<b>National Highway shall be -500 m</b></li>
+                                <li>&nbsp;<b>State High way, MDR and other roads shall be -100 m</b></li>
+                            </ol>
+                        </li>
+                        <li><i></i>&nbsp; The distance between the boundary of the site and human habitation
+                            (boundary of Town, Village etc.) shall not be less than 800 m.</li>
+                        <li><i></i>&nbsp;Preferably located near the quarries.</li>
+                    </ul>
+                  <h4 style="text-align: justify;" class="Sub_heading">
+            <span class="">Dairy Units</span></h4>
+                    <ul class="guidelines">
+                        <li><i></i>&nbsp; There shall be a 5 m width of green belt along the boundary of the
+                            site in the 50 m width buffer zone of the stone crushing unit. This green belt shall
+                            be developed on outer side of the buffer zone so as to act as a barrier.</li>
+                        <li><i></i>&nbsp;Total area of land acquired – Ac. 3 to 5.5 depending up on surroundings</li>
+                        <li><i></i>&nbsp;The distance between the boundary of the site and boundary of the</li>
+                    </ul>
+                   <h4 style="text-align: justify;" class="Sub_heading">
+            <span class="">LPG Bottling Unit (Upto 100 tonnes storage)</span></h4>
+                    <ul class="guidelines">
+                        <li><i></i>&nbsp;The distance between the boundary of the site and boundary of the
+                            <ol type="i">
+                                <li>&nbsp;<b>National Highway shall be -100 m</b></li>
+                                <li>&nbsp;<b>State High way shall be – 50 m</b></li>
+                                <li>&nbsp;<b>M.D.R./Village roads shall be – 25 m</b></li>
+                            </ol>
+                        </li>
+                        <li><i></i>&nbsp; The distance between the boundary of the site and human habitation
+                            (boundary of Town, Village etc.) shall be at least 500 m .</li>
+                        <li><i></i>&nbsp;Total area of land acquired – Ac. 3.0</li>
+                        <li><i></i>&nbsp;Minimum capacity of the plant shall not be less than 5 KLD</li>
+                    </ul>
+                 
+<h4 style="text-align: justify;" class="Sub_heading">
+            <span class="">Cashew Processing Unit</span></h4>
+                    <ul class="guidelines">
+                        <li><i></i>&nbsp; The distance between the boundary of the site and boundary of any
+                            road shall be at least 100 m</li>
+                        <li><i></i>&nbsp;The minimum distance between the boundary of the site and human habitation
+                            (boundary of Town, Village etc.) shall be 1 km</li>
+                        <li><i></i>&nbsp;Total area of land acquired – Ac. 5.0</li>
+                        <li><i></i>&nbsp;On site emergency plan to be prepared before the activity is commenced
+                            i.e. before the trial production.</li>
+                    </ul>
+                   <h4 style="text-align: justify;" class="Sub_heading">
+            <span class="">Drum Process</span></h4>
+                    <ul class="guidelines">
+                        <li><i></i>&nbsp; To be located 1 km away from habitation</li>
+                        <li><i></i>&nbsp;No new units to be allowed in Palasa, Kasibugga &amp; Mogilipadu.</li>
+                        <li><i></i>&nbsp;Distance between 2 units shall be 500 m.</li>
+                        <li><i></i>&nbsp;A distance of 500 m shall be maintained between the boundary of site
+                            and the Edge of National &amp; State Highway.</li>
+                        <li><i></i>&nbsp;A distance of 100 m shall be maintained from boundary of site and Edge
+                            of B.T. Roads in the Districts.</li>
+                    </ul>
+                  <h4 style="text-align: justify;" class="Sub_heading">
+            <span class="">Boiling Process</span></h4>
+                    <ul class="guidelines">
+                        <li><i></i>&nbsp; To be located 300 m away from habitation.</li>
+                        <li><i></i>&nbsp;No new units to be allowed in Palasa, Kasibugga, Mogilipadu in the
+                            districts of Srikakulam &amp; Vizianagaram and Vetapalem in the District of Prakasham.</li>
+                    </ul>
+                   <h4 style="text-align: justify;" class="Sub_heading">
+            <span class="">Guidelines for Sponge Iron Units</span></h4>
+                    <ul class="guidelines">
+                        <li><i></i>&nbsp;The distance between the boundary of the site and boundary of the
+                            <ol type="i">
+                                <li>&nbsp;<b>National Highway shall be -100 m</b></li>
+                                <li>&nbsp;<b>State High way shall be – 50 m</b></li>
+                                <li>&nbsp;<b>M.D.R./Village roads shall be – 25 m</b></li>
+                            </ol>
+                        </li>
+                        <li><i></i>&nbsp;The minimum distance between the boundary of the site and human habitation(boundary
+                            of Town, Village etc.) shall be 500 m.</li>
+                        <li><i></i>&nbsp;Green belt of 20 m width shall be developed along the boundary.</li>
+                        <li><i></i>&nbsp;Total area of land acquired – Ac. 1.5</li>
+                        <li><i></i>&nbsp;Bag filter has to be provided for the pulverizer.</li>
+                    </ul>
+                  <h4 style="text-align: justify;" class="Sub_heading">
+            <span class="">Para Boiling Rice Mills</span></h4>
+                    <ul class="guidelines">
+                        <li><i></i>&nbsp;Category-I: Plat form (Solar) drying system</li>
+                        <li><i></i>&nbsp;Category-II: Elevator type (forced drying) system</li>
+                        <li><i></i>&nbsp;Boiling will be done in one shift in case of <b>Cat-I</b> and two shifts
+                            in case of <b>Cat-II.</b></li>
+                        <li><i></i>&nbsp; Husk is to be stored in a closed shed only.</li>
+                        <li><i></i>&nbsp;The air pollution control equipment shall be installed to meet the
+                            standards prescribed (SPM- 115.mg/Nm3)</li>
+                        <li><i></i>&nbsp;The wastewater shall be treated to meet the standards prescribed by
+                            the MoE&amp;F, GOI to dispose on land within the premises of the industry.</li>
+                        <li><i></i>&nbsp;oiler ash shall be stored in a separate closed shed in one of the corners
+                            of the site away from habitation and roads until its final disposal to brick manufacturers.</li>
+                        <li><i></i>&nbsp;ETP Sludge disposed into secured landfill.</li>
+                    </ul>
+                  <h4 style="text-align: justify;" class="Sub_heading">
+            <span class="">Area of Land:</span></h4>
+                    <ul class="guidelines">
+                        <li><i></i>&nbsp; Plant : Ac. 0.5 and ETP : Ac. 0.5</li>
+                        <li><i></i>&nbsp;To utilise 10 KLD of wastewater Ac. 1.0 of land is required</li>
+                        <li><i></i>&nbsp; 10 m wide green belt shall be developed along the boundary.</li>
+                        <li><i></i>&nbsp;The total area of land required to set up the plant is as follows:</li>
+                        <!--<li><i></i>&nbsp;</li>-->
+                    </ul>
+                    <table class="gridtb table table-striped table-bordered tablestyle">
+                            <tbody><tr align="center">
+ <th>
+                                    S.No.
+                                </th>
+                                <th>
+                                    Capacity TPD
+                                </th>
+                                <th>
+                                    Effluent discharge m3/day
+                                </th>
+                                <th>
+                                    Area of land required for land application in acres
+                                </th>
+                                <th>
+                                    Total area. acres
+                                </th>
+                            </tr>
+                             <tr>
+<td>
+                                    1
+                                </td>
+                                <td>
+                                    10
+                                </td>
+                                <td>
+                                    15
+                                </td>
+                                <td>
+                                    1.5
+                                </td>
+                                <td>
+                                    2.5
+                                </td>
+                            </tr>
+                            <tr>
+<td>
+                                    2
+                                </td>
+                                <td>
+                                    15
+                                </td>
+                                <td>
+                                    20
+                                </td>
+                                <td>
+                                    2.0
+                                </td>
+                                <td>
+                                    3.0
+                                </td>
+                            </tr>
+                            <tr>
+<td>
+                                    3
+                                </td>
+                                <td>
+                                    20
+                                </td>
+                                <td>
+                                    25
+                                </td>
+                                <td>
+                                    2.5
+                                </td>
+                                <td>
+                                    3.5
+                                </td>
+                            </tr>
+                            <tr>
+<td>
+                                    4
+                                </td>
+                                <td>
+                                    25
+                                </td>
+                                <td>
+                                    30
+                                </td>
+                                <td>
+                                    3.0
+                                </td>
+                                <td>
+                                    4.0
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    <p>
+                        <b>Note:</b> For the units who have adopted forced drying system Ac. 0.5 land may
+                        be deducted from the total area of land mentioned above.</p>
+                  <h4 style="text-align: justify;" class="Sub_heading">
+            <span class="">General</span></h4>
+                    <ul class="guidelines">
+                        <li><i></i>&nbsp; The new units shall be located at least 0.5 km away from human habitation
+                            I.e. boundary of the village/town etc.</li>
+                        <li><i></i>&nbsp;The new units shall not be located in the catchment area of drinking
+                            water source</li>
+                    </ul>
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>Pesticide Formulation Units</span></h4>
+                    <ul class="guidelines">
+                        <li><i></i>&nbsp;No clusters of pesticide formulation units shall be permitted.
+                        </li>
+                        <li><i></i>&nbsp;The quality of product (after mixing) shall be ensured and certified
+                            by agricultural department before going into commercial production. The certificate
+                            shall be produced before the APPCB while applying for CFO or when the unit goes
+                            for expansion.</li>
+                        <li><i></i>&nbsp;The proponent has to substantiate the break-up the capital cost so
+                            that a proportionate amount is justified for pollution control measures for odour
+                            or dust causing products /processes. </li>
+                        <li><i></i>&nbsp;The solid, liquid and gaseous formulation units shall have extraction
+                            and scrubbing systems for mitigation of smell or to avoid any accidental leakages
+                            of poisonous gases.</li>
+                        <li><i></i>&nbsp;Bag filters shall be installed to trap particulate matter at all dust
+                            emission points in the process. </li>
+                        <li><i></i>&nbsp;Dry mopping vacuum cleaning of floor shall be adopted instead of wet
+                            floor washing and vessel cleaning as it prevents water contamination.</li>
+                        <li><i></i>&nbsp;Solid waste/drums shall be detoxified and they only disposed off by
+                            incineration or to the scrap dealers. </li>
+                        <li><i></i>&nbsp;The unit shall be located at least a raidal distance of 1 km away from
+                            any human habitation excluding APIIC IEs/IDAs.</li>
+                        <li><i></i>&nbsp;All odour causing chemicals in the formulation units shall be stored
+                            in a separate place within the premises. </li>
+                        <li><i></i>&nbsp;The units shall have at least 50-80% open area other than the factory
+                            built up area.</li>
+                    </ul>
+                  <h4 style="text-align: justify;" class="Sub_heading"> <span>Sponge Iron Units – Guidelines / Code of practice for Pollution prevention for Sponge
+                            Iron Plants (CPCB)</span></h4>
+                    <!--<div class="fa fa-chevron-circle-right"> Air Pollution</div>-->
+                    <h4 class="SubColor">
+                        <b>Air Pollution</b></h4>
+                 <h4 style="text-align: justify;" class="Sub_heading"> <span>Stack Emission from Kiln</span></h4>
+                    <p>
+                        i) Adequately designed ESP or any other adequate air pollution control system/combination
+                        of system should be installed to achieve the prescribed stack emission standards
+                    </p>
+                   
+                    <p>
+                        As installation and operation of Pollution Control Equipment for plants with less
+                        than 100 TPD capacity is not economically viable, therefore, it is recommended that
+                        plants with less than 100 TPD shall not be permitted in future.</p>
+                   
+                    <p>
+                        Program for phasing out old plants having capacity less than 100 TPD shall be worked
+                        out by the State Pollution Control Board.</p>
+                
+                    <p>
+                        ii) All Pollution control equipment should be provided with separate electricity
+                        meter and totaliser for continuous recording of power consumption. The amperage
+                        of the ID fan should also be recorded continuously. Non-functioning of Pollution
+                        control equipment should be recorded in the same logbook along with reasons for
+                        not running the Pollution Control Equipment.</p>
+                   
+                    <p>
+                        iii) The safety cap/emergency stack of rotary kiln type plant, which is generally
+                        installed above the After Burner Chamber (ABC) of feed end column should not be
+                        used for discharging untreated emission, bypassing the air pollution control device.</p>
+                   
+                    <p>
+                        iv) In order to prevent bypassing of emissions through safety cap and non-operation
+                        of ESP or any other pollution control device, software controlled interlocking facility
+                        should be provided on the basis of real time data from the plant control system,
+                        to ensure stoppage of feed conveyor, so that, feed to the kiln would stop automatically,
+                        if safety cap of the rotary kiln is opened or ESP is not in operation. The system
+                        should be able to take care of multiple operating parameters and their inter relations
+                        to prevent any possibility of defeating the basic objective of the interlock. The
+                        system should be foolproof to prevent any kind of tempering. The software based
+                        interlocking system, proposed to be installed by industry should be get approved
+                        by the concerned State Pollution Control Board, for its adequacy, before installation
+                        by the industry.</p>
+                   
+                    <p>
+                        v) Mechanical operated system for timely collection and removal of the flue dust
+                        generated in ESP or any other pollution control device shall be installed.</p>
+                   
+                 <h4 style="text-align: justify;" class="Sub_heading"> <span>Stack Emission from de-dusting units</span></h4>
+                  
+                    <p>
+                        All de-dusting units should be connected to a stack having a minimum stack height
+                        of 30 m. Sampling porthole and platform etc. shall be provided as per CPCB emission
+                        regulation to facilitate stack monitoring. De-dusting units can also be connected
+                        to ABC Chamber and finally emitted through common stack with kiln off-gas emissions.</p>
+                   
+                    <p>
+                       </p><h4 style="text-align: justify;" class="Sub_heading"> <span>Fugitive Emission</span></h4><p></p>
+                  
+                    <p>
+                        The measurement may be done, preferably on 8-hour basis with high volume sampler.
+                        However, depending upon the prevalent conditions at the site, the period of measurement
+                        can be reduced.</p>
+                    <h4 style="text-align: justify;" class="Sub_heading"> <span>Effluent Discharge</span></h4>
+                    <p>
+                        All efforts should be made to reuse and re-circulate the water and to maintain zero
+                        effluent discharge. Storm water / garland drain should be provided in the plant.</p>
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>Noise Control</span></h4>
+                    <p>
+                        The industry should take measures to control the Noise Pollution so that the noise
+                        level standards already notified for Industrial area are complied.</p>
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>Solid Waste Management</span></h4>
+                    <p>
+                       </p><h4 style="text-align: justify;" class="Sub_heading"> <span>Char</span></h4><p></p>
+                    <p>
+                        Char should be mixed with coal or coal washery rejects and used as fuel in Fluidized
+                        Bed Combustion Boilers (FBC) for generation of power. The plants having capacity
+                        200 TPD and above should install Fluidized Bed Combustion Boilers (FBC) for generation
+                        of power. Also the smaller capacity individual Sponge Iron Plants (Capacity upto
+                        100 TPD) and operating in cluster can collectively install common Fluidized Bed
+                        Combustion Boilers (FBC) for power generation. The Sponge Iron Plant are free to
+                        explore other options / possibilities to use char for generation of power. Char
+                        can be sold to local entrepreneurs for making coal briquettes. It can also be mixed
+                        with coal fines, converted to briquettes and used in brick kilns.</p>
+                    <p>
+                        Under no circumstances char should be disposed off in agricultural fields/other
+                        areas. Logbook for daily record, of Char production and usage must be maintained
+                        by the industry and the record shall be made available to officials of CPCB/SPCB/PCC
+                        during inspection.</p>
+                    <p>
+                       </p><h4 style="text-align: justify;" class="Sub_heading"> <span>Kiln Accretions</span></h4><p></p>
+                    <p>
+                        The kiln accretions are heavy solid lumps and can be used as sub- base material
+                        for road construction or landfill, after ascertaining the composition for its suitability
+                        and ensuring that it should not have any adverse environmental impact.</p>
+                    <p>
+                       </p><h4 style="text-align: justify;" class="Sub_heading"> <span>Gas Cleaning Plant (GCP)/Scrubber Sludge</span></h4><p></p>
+                    <p>
+                        The sludge should be compacted and suitably disposed off after ascertaining the
+                        composition for its suitability and ensuring that it should not have any adverse
+                        environmental impact.</p>
+                    <p>
+                       </p><h4 style="text-align: justify;" class="Sub_heading"> <span>Flue Dust / Fly ash</span></h4><p></p>
+                    <p>
+                        Flue dust is generated from air pollution control system i.e. ESP or any other air
+                        pollution control system installed with kiln. Secondary flue dust is also generated
+                        from Bag Filters or any other air pollution control equipment installed with Raw
+                        Material Handling, Coal Crusher, Cooler Discharge and Product house unit. The reuse/
+                        recycling of the flue dust generated / collected may be explored and suitably implemented.</p>
+                    <p>
+                        Fly ash brick manufacturing plant should be install for fly ash utilization. Fly
+                        ash can be utilized in cement making by Cement industry also.</p>
+                    <p>
+                       </p><h4 style="text-align: justify;" class="Sub_heading"> <span>Bottom Ash</span></h4><p></p>
+                    <p>
+                        Bottom ash may have objectionable metallic compounds, therefore should be stored
+                        in properly designed landfills as per CPCB guidelines to prevent leaching to the
+                        sub-soil and underground aquifer.</p>
+                    <p>
+                       </p><h4 style="text-align: justify;" class="Sub_heading"> <span>General</span></h4><p></p>
+                    <p>
+                        Solid waste management program should be prepared with thrust on reuse and recycling.
+                        Solid waste disposal site should be earmarked within the plant premises. The storage
+                        site of solid waste should be scientifically designed keeping in view that the storage
+                        of solid waste should not have any adverse impact on the air quality or water regime,
+                        in any way.</p>
+                    <p>
+                        The various types of solid wastes generated should be stored separately as per CPCB
+                        guidelines so that it should not adversely affect the air quality, becoming air
+                        borne by wind or water regime during rainy season by flowing along with the storm
+                        water.</p>
+                    <!--<li><i></i>&nbsp;Effluent Discharge </li>
+            
+            <li><i></i>&nbsp;Noise Control</li>    -->
+                    <h4 style="text-align: justify;" class="Sub_heading"> <span>Raw Material handling and Preparation</span></h4>
+                    <p>
+                        &nbsp;&nbsp; i) Unloading of coal by trucks or wagons should be carried out with proper
+                        care avoiding dropping of the materials from height. It is advisable to moist the
+                        material by sprinkling water while unloading.</p>
+                    <p>
+                        ii) Crushing and screening operation should be carried out in enclosed area. Centralized
+                        de- dusting facility (collection hood and suction arrangements followed by de-dusting
+                        unit like bag filter or ESP or equally effective method or wet scrubber and finally
+                        discharge of emission through a stack) should be provided to control Fugitive Particulate
+                        Matter Emissions. The stack should confirm to the emission standards notified for
+                        de-dusting units. Water sprinkling arrangement should be provided at raw material
+                        heaps and on land around the crushing and screening units.</p>
+                    <p>
+                        &nbsp; iii) Work area including the roads surrounding the plant shall be asphalted
+                        or concreted.</p>
+                    <p>
+                        iv) Enclosure should be provided for belt conveyors and transfer points of belt
+                        conveyors. The above enclosures shall be rigid and permanent (and not of flexible/
+                        cloth type enclosures) and fitted with self- closing doors and close fitting entrances
+                        and exits, where conveyors pass through the enclosures. Flexible covers shall be
+                        installed at entry and exit of the conveyor to the enclosures, minimizing the gaps
+                        around the conveyors.In the wet system, water sprays/ sprinklers shall be provided
+                        at the following strategic locations for dust suppression during raw material transfer:</p>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; – Belt conveyor discharge/ transfer
+                        point<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; – Crusher/screen discharge locations
+                    </p>
+                  <h4 style="text-align: justify;" class="Sub_heading"> <span>Waste Heat Recovery Boiler (WHRB)</span></h4>
+                    <p>
+                        Sponge Iron Plants of capacity more than 100 TPD kilns shall use Waste Heat Recovery
+                        Boiler (WHRB) for generation of power.</p>
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>Cooler Discharge and Product Separation Unit</span></h4>
+                    <p>
+                        Permanent and rigid enclosures shall be provided for belt conveyors and transfer
+                        points of belt conveyors. Dust extraction cum control system preferably bag filters
+                        or ESP to arrest product loss in cooler discharge and product separation area shall
+                        be installed.</p>
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>Char based Power Plant</span></h4>
+                    <p>
+                        For plant having capacity of 200 TPD of cumulative kiln capacity, the power production
+                        through FBC boiler using char as a part of fuel, is a viable option. Power generation
+                        through FBC boiler using char as a part of fuel be implemented in a phased manner
+                        within 4 years of commissioning and targeting for 100% utilization of char.</p>
+                    <p>
+                        Individual Sponge Iron Plants of capacity upto 100 TPD and located in cluster can
+                        install a common char based power plant collectively.</p>
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>New Sponge Iron Plants</span></h4>
+                    <p>
+                        i) No New Sponge Iron Plant will be commissioned without installation of Pollution
+                        control systems as stipulated in the Standards. The concerned State Pollution Control
+                        Board will accord consent to operate only after Physical verification of the adequacy
+                        of the Installed pollution control systems for meeting the standards and stipulated
+                        conditions in the consent to establish.</p>
+                    <p>
+                        &nbsp;&nbsp; ii) All new kilns shall have the independent stack with the kiln or multi-flue
+                        stacks in case two or more kilns are joining the same stack for better dispersion
+                        of pollutants.</p>
+                    <p>
+                        iii) Any entrepreneur having more than 2×100 TPD kiln may install WHRB for power
+                        generation, as it’s a techno-economic viable option. For plants having capacity
+                        of 200 TPD or more, power generation using char in FBC Boiler as part of fuel is
+                        techno-economic viable option, therefore, new plants must install FBC boiler for
+                        power generation at the time of installation of the industry.</p>
+                    <p>
+                        &nbsp; iv) Any new sponge iron plant being installed along with the other downstream
+                        facilities of converting the sponge iron into steel with/without further processing
+                        the steel should meet the target of 100% utilization of sensible heat of DR (Direct
+                        Reduction) Gas and Char for power generation. Wet scrubbing system for kiln off-gas
+                        treatment for such plants should not be opted.</p>
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>General Guidelines</span></h4>
+                    <p>
+                        &nbsp; i) Extensive plantation/Green belt shall be developed along the roads and
+                        boundary line of the industry. A minimum 15 m width Green Belt along the boundary
+                        shall be maintained. However, the green belt may be designed scientifically depending
+                        upon the requirement and local and mix species of plants may be selected for the
+                        green belt.</p>
+                    <p>
+                        ii) Monitoring of stack emissions, fugitive emissions, trade effluent and noise
+                        level shall be done as per CPCB regulations.</p>
+                    <p>
+                        &nbsp; iii) Pollution control systems shall be operated as an integral part of production
+                        to ensure minimum emissions. Pollution Control System shall start before conveyor
+                        operation/operation of plant. Similarly pollution control system shall be stopped
+                        only after completion of conveyor operation/operation of plant so that possibility
+                        of dust settlement in ducts can be eliminated. Continuous evacuation of dust (from
+                        Dust catchers, ESPs, Bag filter hopper etc.) shall be organized.</p>
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>Siting Guideline for Sponge Iron Plants</span></h4>
+
+                    <p>
+                        Siting of new sponge iron plants shall be as per respective State Pollution Control
+                        Board guidelines. However the following aspects shall also be considered:</p>
+                    <ol type="i">
+                        <li>Residential habitation (residential localities/ village) and ecologically and/or
+                            otherwise sensitive areas: A minimum distance of at least 1000 m (1.0 km) to be
+                            maintained.</li>
+                        <li>The location of Sponge Iron Plant should be at least 500 m away from National Highway
+                            and State Highway .</li>
+                        <li>Radial distance between two Sponge Iron Plants should be 5 km for plants having
+                            capacity 1000 TPD or more.</li>
+                        <li>Sponge Iron Plants can be established in designated industrial areas / Estates as
+                            notified by State Govtan be eliminated. Continuous evacuation of dust (from Dust
+                            catchers, ESPs, Bag filter hopper etc.) shall be organized.</li>
+                    </ol>
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>Sitting Guidelines for Transportation / Communication System</span></h4>
+                    <p>
+                        The distance between the boundary of the site and boundary of the</p>
+                    <p>
+                        i) National Highway shall be -100 m</p>
+                    <p>
+                        ii) State High way shall be – 50 m</p>
+                    <p>
+                        iii) M.D.R./Village roads shall be – 25 m</p>
+                    <p>
+                        It is applicable to industries other than 9 categories of industries mentioned above,
+                        for which specific guidelines are formulated by APPCB/CPCB.</p>
+                    <p>
+                        &nbsp;&nbsp; These guidelines are not applicable to the plots located within industrial
+                        estate.</p>
+                </div>
+            </div>
+        </div>
+    </div">                                                                        
+    </div>
+    <section> <div><div class='footer' style='padding: 10px;'><div class='row'><div class='col-12 col-sm-6 col-lg-4 mt-4 mt-sm-0'><div class='footer-widget-item'><h3>Know More</h3><ul class='footer-widget-link'><li><a href='../PCB/CopyRightPolicy.html' target='_blank'><i class='fa fa-angle-double-right'></i> Copyright Policy</a></li><li><a href='../PCB/PrivacyPolicy.html' target='_blank'><i class='fa fa-angle-double-right'></i> Privacy Policy</a></li></ul></div></div><div class='col-12 col-sm-6 col-lg-4 mt-4 mt-sm-0'><div class='footer-widget-item'><h3>Government Portals</h3><ul class='footer-widget-link'><li><a href='https://www.ap.gov.in/' target='_blank'><i class='fa fa-angle-double-right'></i> AP State Portal</a></li><li><a href='https://www.meekosam.ap.gov.in/' target='_blank'><i class='fa fa-angle-double-right'></i>  Public Grievance Redressal System (PGRS) </a></li><li><a href='https://cdma.ap.gov.in/' target='_blank'><i class='fa fa-angle-double-right'></i> Municipal Administration &amp; Urban Development</a></li><li><a href='http://www.apeprocurement.gov.in/' target='_blank'><i class='fa fa-angle-double-right'></i> AP eProcurement Portal</a></li></ul></div></div><div class='col-12 col-sm-6 col-lg-4 mt-4 mt-sm-0'><div class='footer-widget-item'><h3>Get In Touch</h3><ul class='footer-widget-link get_touch'><a href='https://maps.app.goo.gl/fpByRQ3h8RDABRM69' target='_blank' style='color:#fff;'><h4><i class='fa fa-map-marker'></i> Office Address</h4></a><li>Andhra Pradesh Pollution Control Board,</li><li style='text-align:left;'>Paryavaran Bhavan,</li><li>APIIC Colony Road,Gurunanak Colony,</li><li>Autonagar,Vijayawada- 520007. </ul></div></div></div></div></div></section>
+
+    <div class='fcopy' style='border-top: 1px solid #2098d1; width: 100%;'>
+        <div class='' style="background: #0c1f38;">
+            <div class='row'>
+                <div class='col-sm-6 col-md-6'>
+                    <p class='ftex' style='margin: 0 0 0px; color: #fff; font-size: 14px; background: #0c1f38; padding: 10px;'>
+                        APPCB - Copyright ©2019. All rights reserved.<asp:Label runat="server" ID="lblVisitorsCount"
+                                                                                Style=""> </asp:Label>
+                    </p>
+                </div>
+                <div class='col-sm-6 col-md-6'>
+                    <div class="pull-right">
+                        <p style="line-height: 36px; color: #fff; font-size: 14px !important; margin: 0px;">
+                            Designed and Developed by <a href="https://aponline.gov.in/apportal/index.asp" target="_blank">
+                                <img src='../images/aponline-logo.png' alt="AP ONLINE" />
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/bootstrap-hover-dropdown.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script src="../js/jquery.bootstrap.newsbox.js" type="text/javascript"></script>
+    <script src="../js/jquery.bootstrap.newsbox.min.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery.md5.min.js" type="text/javascript"></script>
+    <script src="../Scripts/EncryptDecrypt.js" type="text/javascript"></script>
+    <!-- Footer Section ends -->
+    <script type="text/javascript">
+        $(".panel-heading").addClass("hvr-shutter-out-horizontal");
+
+        $(".panel-heading").addClass("hvr - icon - back");
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            $(".demo1").bootstrapNews({
+                newsPerPage: 4,
+                autoplay: true,
+                pauseOnHover: true,
+                direction: 'up',
+                newsTickerInterval: 1000,
+                onToDo: function () {
+                    //console.log(this);
+                }
+            });
+        });
+        $(function () {
+            $(".demo2").bootstrapNews({
+                newsPerPage: 4,
+                autoplay: true,
+                pauseOnHover: true,
+                direction: 'up',
+                newsTickerInterval: 1000,
+                onToDo: function () {
+                    //console.log(this);
+                }
+            });
+        });
+        $(function () {
+            $(".demo3").bootstrapNews({
+                newsPerPage: 4,
+                autoplay: true,
+                pauseOnHover: true,
+                direction: 'up',
+                newsTickerInterval: 1000,
+                onToDo: function () {
+                    //console.log(this);
+                }
+            });
+        });
+        $(function () {
+            $(".demo4").bootstrapNews({
+                newsPerPage: 4,
+                autoplay: true,
+                pauseOnHover: true,
+                direction: 'up',
+                newsTickerInterval: 1000,
+                onToDo: function () {
+                    //console.log(this);
+                }
+            });
+        });
+    </script>
+    <script src="../slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('.customer-logos').slick({
+                slidesToShow: 9,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 500,
+                arrows: false,
+                dots: false,
+                pauseOnHover: true,
+
+            });
+        });
+    </script>
+    <!-- Calendar Js -->
+    <script src="../CalenderJS/jquery.ui.core.js" type="text/javascript"></script>
+    <script src="../CalenderJS/jquery.ui.datepicker.js" type="text/javascript"></script>
+    <script src="../CalenderJS/jquery.ui.widget.js" type="text/javascript"></script>
+    <link href="../Scripts/select2.min.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/select2.min.js" type="text/javascript"></script>
+    <script src="../Scripts/MaxLength.min.js" type="text/javascript"></script>
+    
+</body>
+</html>

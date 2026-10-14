@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script>/*static-mirror:network-disabled*/(function(){try{var pending=function(){return new Promise(function(){});};window.fetch=pending;var n=function(){};window.XMLHttpRequest=function(){this.open=n;this.send=n;this.setRequestHeader=n;this.abort=n;this.addEventListener=n;this.removeEventListener=n;this.getAllResponseHeaders=function(){return "";};this.getResponseHeader=function(){return null;};this.readyState=0;this.status=0;};if(window.jQuery&&window.jQuery.ajax){window.jQuery.ajax=function(){return window.jQuery.Deferred().promise();};}}catch(e){}})();</script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> APPCB</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/appcblogo.ico" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../csk/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link href="../css/custom.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css" />
+    <link href="../css/MasterPage.css" rel="stylesheet" type="text/css" />
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script type="text/javascript">
+
+        function divPopup() {
+            $('#myModal').modal('show');
+
+            $('#myModal').modal({
+                backdrop: true,
+                keyboard: true
+            })
+        }
+
+    </script>
+    <style type="text/css">
+        .fcopy .row {
+            margin: 0px !important;
+        }
+
+        @media (min-width:960px) {
+            .h4, h4 {
+                font-size: 1.1rem;
+            }
+
+            .h3, h3 {
+                font-size: 1.45rem;
+            }
+
+            .nav-item.dropdown:hover ul.dropdown-menu {
+                display: block;
+            }
+        }
+
+        .bbox a {
+            text-decoration: none;
+        }
+
+        .bbox .d-block {
+            margin-right: 5px !important;
+        }
+
+        .customer-logos slide {
+            animation: slidein 30s linear infinite;
+            white-space: nowrap;
+            width: calc(100% / 5);
+        }
+
+            .customer-logos slide img {
+                animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+            }
+
+        @keyframes slidein {
+            from {
+                transform: translate3d(0, 0, 0);
+            }
+
+            to {
+                transform: translate3d(-100%, 0, 0);
+            }
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @media (min-width: 120px) {
+            .container {
+                min-width: 1300px !important;
+                max-width: 1300px !important;
+                width: 1300px !important;
+            }
+        }
+
+        .logodiv img {
+            display: unset;
+        }
+
+        .lgo ul li {
+            list-style: none;
+        }
+    </style>
+</head>
+<body style="padding:20px">
+    
+    <div class='header'><div class='text-center'> <div class='row'><div class='col-3'><ul class='d-flex lgo'><li style='width: 53%; list-style: none'><a href='#' target='_blank'><img src='../images/ap.png' class='img-fluid logoimg' /></a></li>   </ul></div><div class='col-7 px-0'><a href='#' target='_blank'><img src='../images/appcb_logo.png' class='img-fluid logoimg' /></a></div><div class='col-2 px-0'><a href=' http://missionlife-moefcc.nic.in/' target='_blank'><img src='../images/Mission_life_Logo.png' class='img-fluid logoimg' /></a></div> </div> </div> </div> <nav class='navbar sticky-top navbar-expand-lg navbar-main'> <div class='container-fluid'> <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'> <span class='navbar-toggler-icon'></span> </button> <div class='collapse navbar-collapse' id='navbarSupportedContent'> <ul class='navbar-nav mx-auto mb-2 mb-lg-0'> <li class='nav-item'> <a class='nav-link active' aria-current='page'  href='../PCB/Pcbhome.html'>Home</a> </li> <li class='nav-item dropdown'> <a class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>    About Us  </a> <ul class='dropdown-menu'> <li><a class='dropdown-item' href='../AboutUs/Overview.html'>Overview</a></li> <li><a class='dropdown-item' href='../AboutUs/Ourmotto.html'>Standard Operating Procedures [SOPs]</a></li> <li><a class='dropdown-item' href='../AboutUs/Vision.html'>Vision &amp; Mission</a></li> <li><a class='dropdown-item' href='../AboutUs/AnnualReports.html'>Annual Reports</a></li> <li><a class='dropdown-item' href='../AboutUs/BoardMembers.html'>Board Members</a></li> <li><a class='dropdown-item' href='../AboutUs/Capacity.html'>Capacity Building</a></li> <li><a class='dropdown-item' href='../Divisions/Technical.html'>Technical Division</a></li> <li><a class='dropdown-item' href='../Divisions/Scientific.html'>Scientific Division</a></li> <li><a class='dropdown-item' href='../AboutUs/PollutionContent.html'>Environment Acts &amp; Rules</a></li> <li><a class='dropdown-item' href='../ForIndustry/CPCBGuidelines.html'>CPCB GuideLines</a></li> <li><a class='dropdown-item' href='../ForIndustry/Rules.html'>Rules</a></li> </ul> </li>    <li class='nav-item dropdown'> <a class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'> FOR INDUSTRY </a> <ul class='dropdown-menu'>  <li><a class='dropdown-item' href='../ForIndustry/Guidelinesforindustry.html'>Guidelines for Industries</a></li> <li><a class='dropdown-item' href='../ForIndustry/CategoriesofIndustries.html'>Categories of Industries</a></li> <li><a class='dropdown-item' href='../ForIndustry/ProcedureforOnlineConnectivity.html'>Procedure for online connectivity</a></li>    <li><a class='dropdown-item' href='../ForIndustry/CommonEffluent.html'>Common Effluent Treatment Plants</a></li> <li><a class='dropdown-item' href='../ForIndustry/SopsforIndustries.html'>SOP's for Industries</a></li> <li><a class='dropdown-item' href='petcokeutilisation.html'>Pet Coke Utilisation</a></li> <li><a class='dropdown-item' href='#' target='_blank'>Bio Medical Waste</a></li> <li><a class='dropdown-item' href='../ForIndustry/EprPortal.html'>EPR Portals of CPCB</a></li> <li><a class='dropdown-item' href='../../APPCBDOCS/Tenders_Noti/Jan%202025%20New%20Categorisation%20of%20industries.pdf' target='_blank'>New Classification of Industries</a></li> </ul> </li> <li class='nav-item dropdown'> <a class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>    FOR PUBLIC </a> <ul class='dropdown-menu'> <li><a class='dropdown-item' href='JointCommitteeReport.html'>Joint Committee Meetings</a></li> <li><a class='dropdown-item' href='../PCB/MissionLife.html'>Mission LIfe</a></li> <li><a class='dropdown-item' href='PublicHearings.html'>Public Hearings</a></li> <li><a class='dropdown-item' href='CitizenCharter.html'>CitizenCharter</a></li> <li><a class='dropdown-item' href='research_fellowship_scheme.html'>Research Fellowship Scheme</a></li> <li><a class='dropdown-item' href='Non_AttainmentCities_ActionPlans_Progress.html'>Non-Attainment Cities-Action Plans-Progress</a></li> <li><a class='dropdown-item' href='faqs.html'>FAQ's</a></li> <li><a class='dropdown-item' href='EnvironmentPlan.html' target='_blank'>Environment Plan</a></li> <li><a class='dropdown-item' href='../AboutUs/RTI.html'>RTI</a></li> </ul>  </li> <li class='nav-item'><a class='nav-link'  href='../PCB/ContactUs.html'>Contact Us</a></li> <li class='nav-item'><a class='nav-link'  href='../PCB/ArticalsView.html'>MEDIA</a></li> <li class='nav-item dropdown'> <a class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>    LOGINS </a> <ul class='dropdown-menu'> <li><a class='dropdown-item' href='https://apindustries.gov.in/CIS/' target='_blank'>Online Allocation of Inspectors</a></li> <li><a class='dropdown-item' href='http://apocmms.nic.in/APPCB/' target='_blank'>Online Consent Management & Monitoring System (OCMMS)</a></li> <li><a class='dropdown-item' href='http://aprtpms.ap.gov.in/' target='_blank'>Real Time Pollution Monitoring System(RTPMS)</a></li>     </ul>  </li> </ul>  </div> </div> </nav>
+    <div class="row">
+        
+
+    <style>
+  <style>
+        ul.nolist
+        {
+            list-style-type: none;
+            padding: 0px;
+        }
+        p
+        {
+            font-family: Lato !important;
+        }
+        #cskw.container
+        {
+            width: 1140px;
+        }
+        hr.bluebdr
+        {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 0;
+            border-top: 5px solid #03a9f4;
+        }
+        p, ul li, ul li a
+        {
+            font-size: 14px;
+            font-family: Lato !important;
+        }
+        .bbg
+        {
+            padding: 15px;
+            background-color: #f5f5f5;
+            list-style: lower-roman;
+            font-size: 16px;
+            list-style-position: inside;
+            margin-bottom: 0;
+            border-bottom: 1px solid #cac5c5;
+            margin-bottom: 15px;
+        }
+    </style>
+    </style>
+
+
+
+
+
+
+
+
+
+
+              <div id="cskw">
+        <div class="row">
+          <div class="col-md-12">
+                <h2 class="Page_Name">
+                   Frequently Asked Questions (FAQ)</h2>
+              
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>What are the important Environmental Laws in the country?</span></h4>
+                    <ul>
+                        <li>Water (Prevention and Control of Pollution) Act, 1974;</li>
+                        <li>Air (Prevention and Control of Pollution) Act, 1981,</li>
+                        <li>Cess Act, 1977, – Environment (Protection) Act, 1986 and Rules there under</li>
+                        <li>Public Liability Insurance Act, 1981,</li>
+                        <li>National Environmental Tribunal Act, 1995</li>
+                        <li>National Environment Appellate Authority Act, 1997</li>
+                    </ul>
+               
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>What are the different programes/activities implemented through State Pollution Control Board?</span></h4>
+<p>
+                        State Boards are implementing following programmes</p>
+                    <ul>
+                        <li>Pollution control in 17 categories of highly polluting industries</li>
+                        <li>Pollution control from industries discharging waste water into rivers and lakes</li>
+                        <li>Inventorization of pollution industries in the State and ensuring their compliance
+                            to the Pollution control norms</li>
+                        <li>Restoration of environmental quality in critically polluted areas</li>
+                        <li>Monitoring of water and ambient air quality in the States</li>
+                        <li>Hazardous waste</li>
+                        <li>Bio-medical and Management of Municipal Solid Wastes</li>
+                    </ul>
+                  
+               
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>What steps have been taken to control vehicular pollution?</span></h4>
+                  
+                    <p>
+                        Major initiatives taken to control vehicular pollution include the following</p>
+                    <ul>
+                        <li>Emission Standards for Tractors : Emission norms for tractors were notified on 8.9.1999
+                            under the Central Motor Vehicle Rules is effective from 1.10.1999.</li>
+                        <li>India 2000 Emission Norms akin to Euro-I Norms: Emission norms known as India 2000
+                            akin to Euro I norms was notified on 28.8.1997 under the Central Motor Vehicle Rules
+                            is effective from 1.4.2000 for the entire country, required major modifications
+                            in the engine designs.</li>
+                    </ul>
+                   
+             
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>What are sources of water pollution and waste water generation scenario?</span></h4>
+                    <p>
+                        It is estimated that 75% to 80% of water pollution by volume is caused by domestic
+                        sewage. The major industries causing water pollution include: distilleries, sugar,
+                        textile, electroplating, pesticides, pharmaceuticals, pulp &amp; paper mills, tanneries,
+                        dyes and dye intermediates, petro-chemicals, steel plants etc. Non-point sources
+                        such as fertilizer and pesticide run-offs in rural areas also cause pollution. Only
+                        60% of chemical fertilizers are utilized in soils and the balance is leached into
+                        soil polluting the ground water. Excess phosphate run-off leads to eutrophication
+                        in lakes and water bodies.</p>
+                  
+               
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>What are the measures for control of noise pollution?</span></h4>
+                    <p>
+                        Ambient standards in respect of noise for different categories of areas (residential,
+                        commercial, industrial) and silence zones have been notified under the Environment
+                        (Protection) Act, 1986. Noise limits have been prescribed for automobiles, domestic
+                        appliances and construction equipment at the manufacturing stage. Standards have
+                        been evolved and notified for the gen sets, fire crackers and coal mines. Regulatory
+                        agencies have been directed to enforce the standards for control and regulate noise
+                        pollution.</p>
+                  
+               
+                    <h4 style="text-align: justify;" class="Sub_heading"> <span> What are the steps taken to control vehicular pollution?</span></h4>
+                    <p style="color: #076fac">
+                        The following steps are taken:</p>
+                    <ul>
+                        <li>Establishment of Ambient Air Quality Monitoring throughout India</li>
+                        <li>Notification of Ambient Air Quality Standards under Environment (Protection) Act.</li>
+                        <li>Notification of vehicular emission norms for year 1990-91,1996, 1998, 2000, 2001</li>
+                        <li>Improving fuel quality by phasing out lead from gasoline, reducing diesel sulphur,
+                            reducing gasoline benzene, and etc</li>
+                        <li>Introduction of alternate fuelled vehicles like CNG/LPG.</li>
+                        <li>Improvement of public transport system.</li>
+                        <li>Phasing out of grossly polluting commercial vehicles.</li>
+                        <li>Public awareness &amp; campaigns.</li>
+                    </ul>
+               
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>What is the impact of the steps to Ambient Air Quality?</span></h4>
+                    <p>
+                        Impacts of the steps taken in Delhi: All regulatory pollutants show a decreasing
+                        trend in concentrations in Delhi. CO decreased to 3069 ug/m3 in 2000-2001 from 5450
+                        ug/m3 in 1998. NO2 decreased from 75 ug/m3 in 1996 to 59 ug/m3 in 2000. Lead which
+                        is harmful especially for children, decreased remarkably due to phasing out of lead
+                        from gasoline. Another critical pollutant RSPM also shows a decreasing trend in
+                        Delhi.</p>
+               
+                  <h4 style="text-align: justify;" class="Sub_heading"> <span>What steps have been taken to control noise pollution due to fire crackers?</span></h4>
+                    <p>
+                        The Govt. of India has enacted noise standards for fire-crackers vide G.S.R.682(E),
+                        dated 5th October, 1999, in an effort to control noise pollution due to fire crackers
+                        Recently in March 2001, Central Pollution Control Board in association with National
+                        Physical Laboratory (NPL), Delhi initiated a study on measurement of noise levels
+                        of fire-crackers available in the market. The study indicates that 95% of the fire-crackers
+                        samples exceed the prescribed noise limits. Consequently, CPCB issued notice under
+                        Section 5, of the Environment (Protection) Act, 1986 to the Department of Explosives,
+                        Nagpur, to take immediate steps to control manufacturing of fire-crackers exceeding
+                        the prescribed limits. All the State Pollution Control Boards/Committees were also
+                        requested to initiate steps to control sale of fire-crackers exceeding the notified
+                        limits, in consultation with their respective local administrations.</p>
+                 <h4 style="text-align: justify;" class="Sub_heading"> <span>What steps have been taken to control noise pollution due to loud-speakers?</span></h4>
+
+                    <p>
+                        The Govt. of India has enacted Noise Pollution (Regulation and Control) Rules, 2000
+                        vide S.O.123(E), dated 14th February, 2000. The Rule deals with provisions to control
+                        noise pollution due to loud-speakers and public address system, as given below :</p>
+                    <p>
+                        Restriction on the use of loud speakers/utility address system :</p>
+                    <ul>
+                        <li>A loud speaker or a public address system shall not be used except after obtaining
+                            written permission from the authority.</li>
+                        <li>A loud speaker or a public address system shall not be used at night (between 10.00
+                            p.m. to 6.00 p.m.) except in closed premises for communication within e.g. auditoria,
+                            conference rooms, community halls and banquet halls.</li>
+                    </ul>
+               
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>What steps have been taken to control noise pollution from generator sets?</span></h4>
+                    <p>
+                        The Central Pollution Control Board, in association with the Indian Institute of
+                        Science, Bangalore, had developed systems for control of noise pollution from diesel
+                        generator sets as well as from petrol/kerosene generator sets. Based on this, the
+                        noise standards for diesel and petrol/kerosene generator sets have been developed
+                        and notified</p>
+                
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>What steps have been taken to control noise pollution in the country?</span></h4>
+                    <ul>
+                        <li>Ambient noise standards were notified in 1989, which formed the basis for State
+                            Pollution Control Boards to initiate action against violating sources.</li>
+                        <li>The vehicular noise standards, notified in 1990, are being implemented by Ministry
+                            of Science and Technology, to reduce traffic noise. These standards have been made
+                            more stringent vide a notification in September 2000 and will be effective from
+                            January, 2003.</li>
+                        <li>Noise standards for diesel genset were prescribed in Dec. 1998. Govt. has been pursuing
+                            with State Pollution Control Boards, generator manufacturing and major users, for
+                            implementation of these standards. Presently these standards are being revised (the
+                            MoEF is in the process of issuing notification) making it mandatory for all generator
+                            manufacturers to provide acoustic enclosure at the manufacturing stage itself. This
+                            will have a major impact on noise from DG sets.</li>
+                        <li>Noise standards for fire-crackers were developed in October, 1999. Central Pollution
+                            Control Board had carried out a compliance testing of the fire crackers available
+                            in the market and also taken up with the Department of Explosives for compliance
+                            with these standards.</li>
+                        <li>Noise standards for petrol and kerosene generator sets were notified in September,
+                            2000, and will be effective from September, 2002. The sale of these gensets will
+                            be prohibited if not certified by the testing agencies, identified for the purpose.</li>
+                        <li>The Noise Rules, 2000, regulates noise due to Public Address System/ Loud speakers
+                            and also prescribed procedures for noise complaint handling.</li>
+                    </ul>
+                   
+               
+                    <h4 style="text-align: justify;" class="Sub_heading"> <span> What are the laws enforced by of the Pollution Control Boards ?</span></h4>
+                    <p>
+                        The Central and State Pollution Control Boards were set up for enforcement of the
+                        Water (Prevention &amp; Control of Pollution) Act, 1974. Over the years, the Boards
+                        have been assigned additional responsibilities which include the following :</p>
+                    <ul>
+                        <li>Water (Prevention &amp; Control of Pollution) Cess Act, 1977.</li>
+                        <li>Air (Prevention &amp; Control of Pollution) Act, 1981</li>
+                        <li>Environment (Protection) Act, 1986 and Rules made thereunder</li>
+                        <li>Hazardous Waste (Management &amp; Handling) Rules1989.</li>
+                        <li>Manufacture, storage and Import of Hazardous Chemicals Rules, 1989</li>
+                        <li>Bio-medical Waste (Management &amp; Handling) Rules, 1998</li>
+                        <li>Municipal Solid Waste (Management &amp; Handling) Rules, 2000.</li>
+                        <li>Plastics wastes Rules, 1999 o Coastal Regulation Zone Rules, 1991</li>
+                        <li>Public Liability Insurance Act, 1991</li>
+                    </ul>
+                
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span> What are the specific functions of the Pollution Control Boards?</span></h4>
+                    <p>
+                        <b>Functions of Central Pollution Control Board :</b></p>
+                    <ul>
+                        <li>Advise the Central Government on matters relating to pollution;</li>
+                        <li>Coordinate the activities of the State Boards;</li>
+                        <li>Provide Technical assistance to the State Boards, carry out and sponsor investigations
+                            and research relating to control of pollution;</li>
+                        <li>Plan and organize training of personnel;</li>
+                        <li>Collect, compile and publish technical and statistical data, prepare manuals and
+                            code of conduct.</li>
+                        <li>To lay down standards;</li>
+                        <li>To plan nation wide programme for pollution control.</li>
+                    </ul>
+                    <p>
+                        <b>Functions of the State Pollution Control Boards:</b></p>
+                    <ul>
+                        <li>To advise the State Government on matter relating to pollution and on siting of
+                            industries</li>
+                        <li>To plan programme for pollution control;</li>
+                        <li>To collect and disseminate information;</li>
+                        <li>To carry our inspection;</li>
+                        <li>To lay down effluent and emission standards;</li>
+                        <li>To issue consent to industries and other activities for compliance of prescribed
+                            emission and effluent standards,</li>
+                    </ul>
+               <h4 style="text-align: justify;" class="Sub_heading"> <span> What are the 17 Categories of the major polluting industries?</span></h4>
+                    <table width="100%">
+                        <tbody><tr>
+                            <td>
+                                <ul>
+                                    <li>Aluminium Smelter</li>
+                                    <li>Caustic Soda</li>
+                                    <li>Cement</li>
+                                    <li>Copper Smelter</li>
+                                    <li>Distilleries</li>
+                                    <li>Dyes &amp; Dye Intermediates</li>
+                                    <li>Fertiliser</li>
+                                    <li>Integrated Iron &amp; Steel</li>
+                                    <li>Tanneries</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Pesticides</li>
+                                    <li>Petrochemicals</li>
+                                    <li>Drugs &amp; Pharmaceuticals</li>
+                                    <li>Pulp &amp; Paper</li>
+                                    <li>Oil Refineries</li>
+                                    <li>Sugar</li>
+                                    <li>Thermal Power Plants</li>
+                                    <li>Zinc Smelter</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody></table>
+               
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span> What actions have been taken on the 17 categories of the industries which have come
+                        into operation after 1991 i.e. the Post-91 industries ?</span></h4>
+                    <p>
+                        The inventorization of the Post-91 large and medium industries of 17 categories
+                        have been completed. A total of 587 such industries have been identified and out
+                        of these, 561 units are presently operating. Although, it was mandatory for these
+                        units to have been allowed only if they had the requisite pollution control facilities,
+                        there latest compliance status is being verified.</p>
+                
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>What are the details of the programme on pollution control in the Problem Areas?</span></h4>
+                   <p class="">
+                        A programme for pollution control through concerted efforts in polluted areas was
+                        started in 1989. The programme involves identification of the polluted areas, intensive
+                        surveys of these areas for identification of polluting sources, preparation of action
+                        plans for control of these polluting sources, and implementation of the action points
+                        by the concerned responsible agencies/industries.</p>
+                    <p>
+                        <b>Number of Problem areas identified so far and what is their status in respect of
+                            the control of pollution from the industries existing in these areas?</b></p>
+                    <ul>
+                        <li>24 Problem Areas have been identified for priority action in the country. Out of
+                            these 24 areas, the action plans have been implemented in respect of 16 namely,
+                            Bhadravati, Chembur, Digboi, Gobindgarh, Greater-Cochin, Kala-Amb, Manali, Nagda-Ratlam,
+                            North-Arcot, Pali, Parwanoo, Patancheru-Bollaram, Talcher, Vapi, Vishakhapatnam
+                            and Ankleshwar, and are under implementation in the remaining 8, namely Dhanbad,
+                            Durgapur, Howrah, Jodhpur, Korba, Najafgarh Drain Basin Delhi, Singrauli, and Tarapur</li>
+                        <li>There are total of 152 large and medium polluting industries located in these areas,
+                            out of which 17 are closed and all the remaining 134 industries have provided the
+                            requisite pollution control facilities.</li>
+                    </ul>
+               
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span> What are the industrial pollution programmes existing which are based on the concept
+                        of sustainable development?</span></h4>
+                    <p>
+                        The industrial pollution control programmes which incorporate the concept of sustainable
+                        development are :</p>
+                   <ul>
+                        <li>Environmental auditing and submission of the annual environmental statements by
+                            the industries</li>
+                        <li>Conducting of EIA studies before establishment of new polluting industries</li>
+                        <li>Change over to clean technologies for example mercury cell to membrane cells in
+                            chloralkali plants.</li>
+                        <li>Zoning Atlas of Siting Industries; and</li>
+                        <li>Eco-labeling of environment-friendly products</li>
+                    </ul>
+              
+                    <h4 style="text-align: justify;" class="Sub_heading"> <span> What are the incentives to the industries for pollution control ?</span></h4>
+                    <p>
+                        The steps taken by the various categories of the industries for reduction in the
+                        generation of the pollutants are as follows:</p>
+                   <ul>
+                        <li>Commissioning of the stand-by power supply systems by chlor-alkali plants reduce
+                            mercury emission due to power failures</li>
+                        <li>Introduction of blending system for coal homogenisation in cement plants to ensure
+                            stable operation of the ESPs</li>
+                        <li>Conversion of single hood to the double hood system in copper smelters to reduce
+                            the fugitive emissions</li>
+                        <li>Biomethanation of the effluents in distillerie</li>
+                        <li>Solar evaporation ponds in small-scale water polluting units not having CETPs in
+                            the proximity</li>
+                        <li>Conversion of the open hearth furnaces (OHF) to the basic oxygen furnaces (BOF)
+                            and introduction of the dry system (instead of wet) for the quenching of the hot
+                            coke in iron &amp; steel plants</li>
+                        <li>Commissioning of chemical recovery plants (CRPs) by pulp &amp; paper industries; and</li>
+                        <li>Change over the DCDA production method by sulphuric acid</li>
+                    </ul>
+             
+                   
+<h4 style="text-align: justify;" class="Sub_heading"> <span> What are the projects taken up for strengthening of Pollution Control Boards with
+                        World Bank assistance?</span></h4>
+                    <p>
+                        With the assistance of the World Bank, following three environmental projects have
+                        been undertaken to strengthen monitoring and enforcement capability of selected
+                        Pollution Control Boards/ Committees and to perform specific studies to prevent
+                        environmental degradation.</p>
+                    <ul>
+                        <li>Industrial Pollution Project (IPC)- Signed in 1991 and completed in 1999;</li>
+                        <li>Industrial Pollution Prevention Project (IPP)- Signed in 1994 and its implementation
+                            is in progress;</li>
+                        <li>Environmental Management Capacity Building Technical Assistance Project (EMCBTA)-
+                            Signed in 1997 and its implementation is in progress</li>
+                    </ul>
+                   <p>
+                        Names of the State Pollution Control Boards/ Committees covered under the projects
+                        for strengthening.</p>
+                   <p>
+                        Besides Central Pollution Control Board and its zonal offices, following 22 State
+                        Pollution Control Boards/ Pollution Control Committees have been covered under the
+                        projects. These are</p>
+                    <p>
+                        Andhra Pradesh, Assam, Bihar, Delhi, Goa, Gujarat, Himachal Pradesh, Jammu &amp; Kashmir,
+                        Karnataka, Kerala, Maharahstra, Madhya Pradesh, Manipur, Meghalaya, Orissa, Pondicherry,
+                        Punjab, Rajasthan, Tamil Nadu, Tripura, Uttar Pradesh and West Bengal.s</p>
+                
+                   
+<h4 style="text-align: justify;" class="Sub_heading"> <span>Whether SPCBs and PCCs are getting adequate financial support from State Governments  and what is the financial status?</span></h4>
+
+                    <p>
+                        SPCBs are getting only marginal/ nominal financial assistance from State Governments.
+                        In some of the State Pollution Control Boards, State Governments are not providing
+                        budgetary grants. State Pollution Control Boards are dependent on consent and authorization
+                        fee and cess reimbursements which they get out of cess collections.</p>
+                </div>
+                <div class="">
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span> Whether Ministry provides financial assistance to State Pollution Control Boards?</span></h4>
+                    <p>
+                        Ministry of Environment and Forests (MoEF) provides financial assistance to State
+                        pollution Control Boards on specific projects relating to prevention and control
+                        of pollution. Ministry provides financial assistance on following programmes:</p>
+                   <ul>
+                        <li>Specific projects for abatement of pollution</li>
+                        <li>Hazardous waste management</li>
+                        <li>Management of municipal solid waste</li>
+                        <li>Strengthening of Pollution Control Boards (for laboratory upgrdation)</li>
+                    </ul>
+              
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span> Whether State Pollution Control Boards/ Pollution Control Committees are following  uniform rules/ procedures for implementation of pollution control rules?</span></h4>
+                    <p>
+                        State Pollution Control Boards have framed rules as per approval of State Governments.
+                        More or less, procedure and rules followed by State Pollution Control Boards are
+                        similar</p>
+             
+                  <h4 style="text-align: justify;" class="Sub_heading"> <span>What are the laws enforced by of the Pollution Control Boards ?</span></h4>
+                    <p class="">
+                        The Central and State Pollution Control Boards were set up for enforcement of the
+                        Water (Prevention &amp; Control of Pollution) Act, 1974. Over the years, the Boards
+                        have been assigned additional responsibilities which include the following :</p>
+                    <ul class="">
+                        <li>Water (Prevention &amp; Control of Pollution) Cess Act, 1977.</li>
+                        <li>Air (Prevention &amp; Control of Pollution) Act, 1981</li>
+                        <li>Environment (Protection) Act, 1986 and Rules made thereunder</li>
+                        <li>Hazardous Waste (Management &amp; Handling) Rules1989.</li>
+                        <li>Manufacture, storage and Import of Hazardous Chemicals Rules, 1989</li>
+                        <li>Bio-medical Waste (Management &amp; Handling) Rules, 1998</li>
+                        <li>Municipal Solid Waste (Management &amp; Handling) Rules, 2000.</li>
+                        <li>Plastics wastes Rules, 1999 o Coastal Regulation Zone Rules, 1991</li>
+                        <li>Public Liability Insurance Act, 1991</li>
+                    </ul>
+               
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>What are the sources of fund for the Central and State Pollution Control Boards?</span></h4>
+                    <p class="">
+                        The Central Pollution Control Board is fully funded by the Central Ministry of Environment
+                        &amp; Forests. The State Pollution Control Boards receive funds from the concerned State
+                        Governments and from the Central Ministry of Environment &amp; Forests through reimbursement
+                        of Water Cess (upto 80%) collected by the respective State Boards. In addition,
+                        the State Boards receive fees for processing for applications from the industries
+                        for issuing consent in regard to discharge of effluent and emissions.</p>
+             
+                  <h4 style="text-align: justify;" class="Sub_heading"> <span>What are the programmes taken up for Industrial Pollution Control ?</span></h4>
+                    <p class="">
+                        The programmes covering direct control of effluents/ emissions, and hazardous wastes
+                        from the industries taken up are as follows:</p>
+                    <ul class="">
+                        <li>Industrial Pollution Control along the river Ganga,</li>
+                        <li>Pollution Control in 17 Categories of major polluting industries,</li>
+                        <li>Industrial pollution control along the rivers and lakes,</li>
+                        <li>Pollution Control in Problem Areas, and</li>
+                        <li>Surprise inspection of polluting industries</li>
+                    </ul>
+               
+            
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>What are the 17 Categories of the major polluting industries?</span></h4>
+                    <table width="100%">
+                        <tbody><tr>
+                            <td>
+                                <ul>
+                                    <li>Aluminium Smelter</li>
+                                    <li>Caustic Soda</li>
+                                    <li>Cement</li>
+                                    <li>Copper Smelter</li>
+                                    <li>Distilleries</li>
+                                    <li>Dyes &amp; Dye Intermediates</li>
+                                    <li>Fertiliser</li>
+                                    <li>Integrated Iron &amp; Steel</li>
+                                    <li>Tanneries</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Pesticides</li>
+                                    <li>Petrochemicals</li>
+                                    <li>Drugs &amp; Pharmaceuticals</li>
+                                    <li>Pulp &amp; Paper</li>
+                                    <li>Oil Refineries</li>
+                                    <li>Sugar</li>
+                                    <li>Thermal Power Plants</li>
+                                    <li>Zinc Smelter</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody></table>
+               
+                  <h4 style="text-align: justify;" class="Sub_heading"> <span>What actions have been taken on the 17 categories of the industries which have come
+                        into operation after 1991 i.e. the Post-91 industries ?</span></h4>
+
+                    <p>
+                        The inventorization of the Post-91 large and medium industries of 17 categories
+                        have been completed. A total of 587 such industries have been identified and out
+                        of these, 561 units are presently operating. Although, it was mandatory for these
+                        units to have been allowed only if they had the requisite pollution control facilities,
+                        there latest compliance status is being verified.</p>
+                
+                
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span> What are the details of the programme on pollution control in the Problem Areas?</span></h4>
+                    <p>
+                        A programme for pollution control through concerted efforts in polluted areas was
+                        started in 1989. The programme involves identification of the polluted areas, intensive
+                        surveys of these areas for identification of polluting sources, preparation of action
+                        plans for control of these polluting sources, and implementation of the action points
+                        by the concerned responsible agencies/industries.</p>
+                   <p>
+                        Number of Problem areas identified so far and what is their status in respect of
+                        the control of pollution from the industries existing in these areas?</p>
+                    <ul>
+                        <li>24 Problem Areas have been identified for priority action in the country. Out of
+                            these 24 areas, the action plans have been implemented in respect of 16 namely,
+                            Bhadravati, Chembur, Digboi, Gobindgarh, Greater-Cochin, Kala-Amb, Manali, Nagda-Ratlam,
+                            North-Arcot, Pali, Parwanoo, Patancheru-Bollaram, Talcher, Vapi, Vishakhapatnam
+                            and Ankleshwar, and are under implementation in the remaining 8, namely Dhanbad,
+                            Durgapur, Howrah, Jodhpur, Korba, Najafgarh Drain Basin Delhi, Singrauli, and Tarapur</li>
+                        <li>There are total of 152 large and medium polluting industries located in these areas,
+                            out of which 17 are closed and all the remaining 134 industries have provided the
+                            requisite pollution control facilities.</li>
+                    </ul>
+             
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span> What are the industrial pollution programmes existing which are based on the concept
+                        of sustainable development?</span></h4>
+
+                    <p>
+                        The industrial pollution control programmes which incorporate the concept of sustainable
+                        development are :</p>
+                    
+                    <ul>
+                        <li>Environmental auditing and submission of the annual environmental statements by
+                            the industries</li>
+                        <li>Conducting of EIA studies before establishment of new polluting industries</li>
+                        <li>Change over to clean technologies for example mercury cell to membrane cells in
+                            chloralkali plants.</li>
+                        <li>Zoning Atlas of Siting Industries; and</li>
+                        <li>Eco-labeling of environment-friendly products</li></ul><ul>
+                    </ul>
+             
+                  <h4 style="text-align: justify;" class="Sub_heading"> <span>What are the different programes/activities implemented through State Pollution Control Board?</span></h4>
+                    <p>
+                        State Boards are implementing following programmes</p>
+                    <ul>
+                        <li>Pollution control in 17 categories of highly polluting industries</li>
+                        <li>Pollution control from industries discharging waste water into rivers and lakes</li>
+                        <li>Inventorization of pollution industries in the State and ensuring their compliance
+                            to the Pollution control norms</li>
+                        <li>Restoration of environmental quality in critically polluted areas</li>
+                        <li>Monitoring of water and ambient air quality in the States</li>
+                        <li>Hazardous waste</li>
+                        <li>Bio-medical and Management of Municipal Solid Wastes</li>
+                    </ul>
+               
+                  <h4 style="text-align: justify;" class="Sub_heading"> <span>What are the projects taken up for strengthening of Pollution Control Boards with
+                        World Bank assistance?</span></h4>
+                    <p>
+                        With the assistance of the World Bank, following three environmental projects have
+                        been undertaken to strengthen monitoring and enforcement capability of selected
+                        Pollution Control Boards/ Committees and to perform specific studies to prevent
+                        environmental degradation.</p>
+                    <ul class="bbg">
+                        <li>Industrial Pollution Project (IPC)- Signed in 1991 and completed in 1999;</li>
+                        <li>Industrial Pollution Prevention Project (IPP)- Signed in 1994 and its implementation
+                            is in progress;</li>
+                        <li>Environmental Management Capacity Building Technical Assistance Project (EMCBTA)-
+                            Signed in 1997 and its implementation is in progress</li>
+                    </ul>
+                    <p>
+                        Names of the State Pollution Control Boards/ Committees covered under the projects
+                        for strengthening.</p>
+                    <p>
+                        Besides Central Pollution Control Board and its zonal offices, following 22 State
+                        Pollution Control Boards/ Pollution Control Committees have been covered under the
+                        projects. These are</p>
+                    <p>
+                        Andhra Pradesh, Assam, Bihar, Delhi, Goa, Gujarat, Himachal Pradesh, Jammu &amp; Kashmir,
+                        Karnataka, Kerala, Maharahstra, Madhya Pradesh, Manipur, Meghalaya, Orissa, Pondicherry,
+                        Punjab, Rajasthan, Tamil Nadu, Tripura, Uttar Pradesh and West Bengal.s</p>
+                </div>
+                <div>
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>Whether SPCBs and PCCs are getting adequate financial support from State Governments
+                        and what is the financial status?</span></h4>
+                    <p>
+                        SPCBs are getting only marginal/ nominal financial assistance from State Governments.
+                        In some of the State Pollution Control Boards, State Governments are not providing
+                        budgetary grants. State Pollution Control Boards are dependent on consent and authorization
+                        fee and cess reimbursements which they get out of cess collections.</p>
+             </div>  <div>
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>Whether Ministry provides financial assistance to State Pollution Control Boards?</span></h4>
+                   <p>
+                        Ministry of Environment and Forests (MoEF) provides financial assistance to State
+                        pollution Control Boards on specific projects relating to prevention and control
+                        of pollution. Ministry provides financial assistance on following programmes:</p>
+                    <ul class="bbg">
+                        <li>Specific projects for abatement of pollution</li>
+                        <li>Hazardous waste management</li>
+                        <li>Management of municipal solid waste</li>
+                        <li>Strengthening of Pollution Control Boards (for laboratory upgrdation)</li>
+                    </ul>
+               </div>
+<div>
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>Whether State Pollution Control Boards/ Pollution Control Committees are following
+                        uniform rules/ procedures for implementation of pollution control rules?</span></h4>
+                    <p>
+                        State Pollution Control Boards have framed rules as per approval of State Governments.
+                        More or less, procedure and rules followed by State Pollution Control Boards are
+                        similar</p>
+               </div>
+<div>
+                    <h4 style="text-align: justify;" class="Sub_heading"> <span> What are the laws enforced by of the Pollution Control Boards ?</span></h4>
+                    <p>
+                        The Central and State Pollution Control Boards were set up for enforcement of the
+                        Water (Prevention &amp; Control of Pollution) Act, 1974. Over the years, the Boards
+                        have been assigned additional responsibilities which include the following :</p>
+                    <ul>
+                        <li>Water (Prevention &amp; Control of Pollution) Cess Act, 1977.</li>
+                        <li>Air (Prevention &amp; Control of Pollution) Act, 1981</li>
+                        <li>Environment (Protection) Act, 1986 and Rules made thereunder</li>
+                        <li>Hazardous Waste (Management &amp; Handling) Rules1989.</li>
+                        <li>Manufacture, storage and Import of Hazardous Chemicals Rules, 1989</li>
+                        <li>Bio-medical Waste (Management &amp; Handling) Rules, 1998</li>
+                        <li>Municipal Solid Waste (Management &amp; Handling) Rules, 2000.</li>
+                        <li>Plastics wastes Rules, 1999 o Coastal Regulation Zone Rules, 1991</li>
+                        <li>Public Liability Insurance Act, 1991</li>
+                    </ul>
+              </div>
+<div>
+                    <h4 style="text-align: justify;" class="Sub_heading"> <span> What are the sources of fund for the Central and State Pollution Control Boards?</span></h4>
+                    <p>
+                        The Central Pollution Control Board is fully funded by the Central Ministry of Environment
+                        &amp; Forests. The State Pollution Control Boards receive funds from the concerned State
+                        Governments and from the Central Ministry of Environment &amp; Forests through reimbursement
+                        of Water Cess (upto 80%) collected by the respective State Boards. In addition,
+                        the State Boards receive fees for processing for applications from the industries
+                        for issuing consent in regard to discharge of effluent and emissions.</p>
+                  
+              
+               </div>
+<div>
+                   <h4 style="text-align: justify;" class="Sub_heading"> <span>What are the programmes taken up for Industrial Pollution Control ?</span></h4>
+                    <p>
+                        The programmes covering direct control of effluents/ emissions, and hazardous wastes
+                        from the industries taken up are as follows:</p>
+                    <ul>
+                        <li>Industrial Pollution Control along the river Ganga,</li>
+                        <li>Pollution Control in 17 Categories of major polluting industries,</li>
+                        <li>Industrial pollution control along the rivers and lakes,</li>
+                        <li>Pollution Control in Problem Areas, and</li>
+                        <li>Surprise inspection of polluting industries</li>
+                    </ul>
+</div> </div>
+            </div>
+                                                        
+    </div>
+    <section> <div><div class='footer' style='padding: 10px;'><div class='row'><div class='col-12 col-sm-6 col-lg-4 mt-4 mt-sm-0'><div class='footer-widget-item'><h3>Know More</h3><ul class='footer-widget-link'><li><a href='../PCB/CopyRightPolicy.html' target='_blank'><i class='fa fa-angle-double-right'></i> Copyright Policy</a></li><li><a href='../PCB/PrivacyPolicy.html' target='_blank'><i class='fa fa-angle-double-right'></i> Privacy Policy</a></li></ul></div></div><div class='col-12 col-sm-6 col-lg-4 mt-4 mt-sm-0'><div class='footer-widget-item'><h3>Government Portals</h3><ul class='footer-widget-link'><li><a href='https://www.ap.gov.in/' target='_blank'><i class='fa fa-angle-double-right'></i> AP State Portal</a></li><li><a href='https://www.meekosam.ap.gov.in/' target='_blank'><i class='fa fa-angle-double-right'></i>  Public Grievance Redressal System (PGRS) </a></li><li><a href='https://cdma.ap.gov.in/' target='_blank'><i class='fa fa-angle-double-right'></i> Municipal Administration &amp; Urban Development</a></li><li><a href='http://www.apeprocurement.gov.in/' target='_blank'><i class='fa fa-angle-double-right'></i> AP eProcurement Portal</a></li></ul></div></div><div class='col-12 col-sm-6 col-lg-4 mt-4 mt-sm-0'><div class='footer-widget-item'><h3>Get In Touch</h3><ul class='footer-widget-link get_touch'><a href='https://maps.app.goo.gl/fpByRQ3h8RDABRM69' target='_blank' style='color:#fff;'><h4><i class='fa fa-map-marker'></i> Office Address</h4></a><li>Andhra Pradesh Pollution Control Board,</li><li style='text-align:left;'>Paryavaran Bhavan,</li><li>APIIC Colony Road,Gurunanak Colony,</li><li>Autonagar,Vijayawada- 520007. </ul></div></div></div></div></div></section>
+
+    <div class='fcopy' style='border-top: 1px solid #2098d1; width: 100%;'>
+        <div class='' style="background: #0c1f38;">
+            <div class='row'>
+                <div class='col-sm-6 col-md-6'>
+                    <p class='ftex' style='margin: 0 0 0px; color: #fff; font-size: 14px; background: #0c1f38; padding: 10px;'>
+                        APPCB - Copyright ©2019. All rights reserved.<asp:Label runat="server" ID="lblVisitorsCount"
+                                                                                Style=""> </asp:Label>
+                    </p>
+                </div>
+                <div class='col-sm-6 col-md-6'>
+                    <div class="pull-right">
+                        <p style="line-height: 36px; color: #fff; font-size: 14px !important; margin: 0px;">
+                            Designed and Developed by <a href="https://aponline.gov.in/apportal/index.asp" target="_blank">
+                                <img src='../images/aponline-logo.png' alt="AP ONLINE" />
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/bootstrap-hover-dropdown.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script src="../js/jquery.bootstrap.newsbox.js" type="text/javascript"></script>
+    <script src="../js/jquery.bootstrap.newsbox.min.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery.md5.min.js" type="text/javascript"></script>
+    <script src="../Scripts/EncryptDecrypt.js" type="text/javascript"></script>
+    <!-- Footer Section ends -->
+    <script type="text/javascript">
+        $(".panel-heading").addClass("hvr-shutter-out-horizontal");
+
+        $(".panel-heading").addClass("hvr - icon - back");
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            $(".demo1").bootstrapNews({
+                newsPerPage: 4,
+                autoplay: true,
+                pauseOnHover: true,
+                direction: 'up',
+                newsTickerInterval: 1000,
+                onToDo: function () {
+                    //console.log(this);
+                }
+            });
+        });
+        $(function () {
+            $(".demo2").bootstrapNews({
+                newsPerPage: 4,
+                autoplay: true,
+                pauseOnHover: true,
+                direction: 'up',
+                newsTickerInterval: 1000,
+                onToDo: function () {
+                    //console.log(this);
+                }
+            });
+        });
+        $(function () {
+            $(".demo3").bootstrapNews({
+                newsPerPage: 4,
+                autoplay: true,
+                pauseOnHover: true,
+                direction: 'up',
+                newsTickerInterval: 1000,
+                onToDo: function () {
+                    //console.log(this);
+                }
+            });
+        });
+        $(function () {
+            $(".demo4").bootstrapNews({
+                newsPerPage: 4,
+                autoplay: true,
+                pauseOnHover: true,
+                direction: 'up',
+                newsTickerInterval: 1000,
+                onToDo: function () {
+                    //console.log(this);
+                }
+            });
+        });
+    </script>
+    <script src="../slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('.customer-logos').slick({
+                slidesToShow: 9,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 500,
+                arrows: false,
+                dots: false,
+                pauseOnHover: true,
+
+            });
+        });
+    </script>
+    <!-- Calendar Js -->
+    <script src="../CalenderJS/jquery.ui.core.js" type="text/javascript"></script>
+    <script src="../CalenderJS/jquery.ui.datepicker.js" type="text/javascript"></script>
+    <script src="../CalenderJS/jquery.ui.widget.js" type="text/javascript"></script>
+    <link href="../Scripts/select2.min.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/select2.min.js" type="text/javascript"></script>
+    <script src="../Scripts/MaxLength.min.js" type="text/javascript"></script>
+    
+</body>
+</html>

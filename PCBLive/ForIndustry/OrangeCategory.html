@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script>/*static-mirror:network-disabled*/(function(){try{var pending=function(){return new Promise(function(){});};window.fetch=pending;var n=function(){};window.XMLHttpRequest=function(){this.open=n;this.send=n;this.setRequestHeader=n;this.abort=n;this.addEventListener=n;this.removeEventListener=n;this.getAllResponseHeaders=function(){return "";};this.getResponseHeader=function(){return null;};this.readyState=0;this.status=0;};if(window.jQuery&&window.jQuery.ajax){window.jQuery.ajax=function(){return window.jQuery.Deferred().promise();};}}catch(e){}})();</script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> APPCB</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/appcblogo.ico" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../csk/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link href="../css/custom.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css" />
+    <link href="../css/MasterPage.css" rel="stylesheet" type="text/css" />
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script type="text/javascript">
+
+        function divPopup() {
+            $('#myModal').modal('show');
+
+            $('#myModal').modal({
+                backdrop: true,
+                keyboard: true
+            })
+        }
+
+    </script>
+    <style type="text/css">
+        .fcopy .row {
+            margin: 0px !important;
+        }
+
+        @media (min-width:960px) {
+            .h4, h4 {
+                font-size: 1.1rem;
+            }
+
+            .h3, h3 {
+                font-size: 1.45rem;
+            }
+
+            .nav-item.dropdown:hover ul.dropdown-menu {
+                display: block;
+            }
+        }
+
+        .bbox a {
+            text-decoration: none;
+        }
+
+        .bbox .d-block {
+            margin-right: 5px !important;
+        }
+
+        .customer-logos slide {
+            animation: slidein 30s linear infinite;
+            white-space: nowrap;
+            width: calc(100% / 5);
+        }
+
+            .customer-logos slide img {
+                animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+            }
+
+        @keyframes slidein {
+            from {
+                transform: translate3d(0, 0, 0);
+            }
+
+            to {
+                transform: translate3d(-100%, 0, 0);
+            }
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @media (min-width: 120px) {
+            .container {
+                min-width: 1300px !important;
+                max-width: 1300px !important;
+                width: 1300px !important;
+            }
+        }
+
+        .logodiv img {
+            display: unset;
+        }
+
+        .lgo ul li {
+            list-style: none;
+        }
+    </style>
+</head>
+<body style="padding:20px">
+    
+    <div class='header'><div class='text-center'> <div class='row'><div class='col-3'><ul class='d-flex lgo'><li style='width: 53%; list-style: none'><a href='#' target='_blank'><img src='../images/ap.png' class='img-fluid logoimg' /></a></li>   </ul></div><div class='col-7 px-0'><a href='#' target='_blank'><img src='../images/appcb_logo.png' class='img-fluid logoimg' /></a></div><div class='col-2 px-0'><a href=' http://missionlife-moefcc.nic.in/' target='_blank'><img src='../images/Mission_life_Logo.png' class='img-fluid logoimg' /></a></div> </div> </div> </div> <nav class='navbar sticky-top navbar-expand-lg navbar-main'> <div class='container-fluid'> <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'> <span class='navbar-toggler-icon'></span> </button> <div class='collapse navbar-collapse' id='navbarSupportedContent'> <ul class='navbar-nav mx-auto mb-2 mb-lg-0'> <li class='nav-item'> <a class='nav-link active' aria-current='page'  href='../PCB/Pcbhome.html'>Home</a> </li> <li class='nav-item dropdown'> <a class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>    About Us  </a> <ul class='dropdown-menu'> <li><a class='dropdown-item' href='../AboutUs/Overview.html'>Overview</a></li> <li><a class='dropdown-item' href='../AboutUs/Ourmotto.html'>Standard Operating Procedures [SOPs]</a></li> <li><a class='dropdown-item' href='../AboutUs/Vision.html'>Vision &amp; Mission</a></li> <li><a class='dropdown-item' href='../AboutUs/AnnualReports.html'>Annual Reports</a></li> <li><a class='dropdown-item' href='../AboutUs/BoardMembers.html'>Board Members</a></li> <li><a class='dropdown-item' href='../AboutUs/Capacity.html'>Capacity Building</a></li> <li><a class='dropdown-item' href='../Divisions/Technical.html'>Technical Division</a></li> <li><a class='dropdown-item' href='../Divisions/Scientific.html'>Scientific Division</a></li> <li><a class='dropdown-item' href='../AboutUs/PollutionContent.html'>Environment Acts &amp; Rules</a></li> <li><a class='dropdown-item' href='../ForIndustry/CPCBGuidelines.html'>CPCB GuideLines</a></li> <li><a class='dropdown-item' href='../ForIndustry/Rules.html'>Rules</a></li> </ul> </li>    <li class='nav-item dropdown'> <a class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'> FOR INDUSTRY </a> <ul class='dropdown-menu'>  <li><a class='dropdown-item' href='../ForIndustry/Guidelinesforindustry.html'>Guidelines for Industries</a></li> <li><a class='dropdown-item' href='../ForIndustry/CategoriesofIndustries.html'>Categories of Industries</a></li> <li><a class='dropdown-item' href='../ForIndustry/ProcedureforOnlineConnectivity.html'>Procedure for online connectivity</a></li>    <li><a class='dropdown-item' href='../ForIndustry/CommonEffluent.html'>Common Effluent Treatment Plants</a></li> <li><a class='dropdown-item' href='../ForIndustry/SopsforIndustries.html'>SOP's for Industries</a></li> <li><a class='dropdown-item' href='../ForPublic/petcokeutilisation.html'>Pet Coke Utilisation</a></li> <li><a class='dropdown-item' href='#' target='_blank'>Bio Medical Waste</a></li> <li><a class='dropdown-item' href='../ForIndustry/EprPortal.html'>EPR Portals of CPCB</a></li> <li><a class='dropdown-item' href='../../APPCBDOCS/Tenders_Noti/Jan%202025%20New%20Categorisation%20of%20industries.pdf' target='_blank'>New Classification of Industries</a></li> </ul> </li> <li class='nav-item dropdown'> <a class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>    FOR PUBLIC </a> <ul class='dropdown-menu'> <li><a class='dropdown-item' href='../ForPublic/JointCommitteeReport.html'>Joint Committee Meetings</a></li> <li><a class='dropdown-item' href='../PCB/MissionLife.html'>Mission LIfe</a></li> <li><a class='dropdown-item' href='../ForPublic/PublicHearings.html'>Public Hearings</a></li> <li><a class='dropdown-item' href='../ForPublic/CitizenCharter.html'>CitizenCharter</a></li> <li><a class='dropdown-item' href='../ForPublic/research_fellowship_scheme.html'>Research Fellowship Scheme</a></li> <li><a class='dropdown-item' href='../ForPublic/Non_AttainmentCities_ActionPlans_Progress.html'>Non-Attainment Cities-Action Plans-Progress</a></li> <li><a class='dropdown-item' href='../ForPublic/faqs.html'>FAQ's</a></li> <li><a class='dropdown-item' href='../ForPublic/EnvironmentPlan.html' target='_blank'>Environment Plan</a></li> <li><a class='dropdown-item' href='../AboutUs/RTI.html'>RTI</a></li> </ul>  </li> <li class='nav-item'><a class='nav-link'  href='../PCB/ContactUs.html'>Contact Us</a></li> <li class='nav-item'><a class='nav-link'  href='../PCB/ArticalsView.html'>MEDIA</a></li> <li class='nav-item dropdown'> <a class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>    LOGINS </a> <ul class='dropdown-menu'> <li><a class='dropdown-item' href='https://apindustries.gov.in/CIS/' target='_blank'>Online Allocation of Inspectors</a></li> <li><a class='dropdown-item' href='http://apocmms.nic.in/APPCB/' target='_blank'>Online Consent Management & Monitoring System (OCMMS)</a></li> <li><a class='dropdown-item' href='http://aprtpms.ap.gov.in/' target='_blank'>Real Time Pollution Monitoring System(RTPMS)</a></li>     </ul>  </li> </ul>  </div> </div> </nav>
+    <div class="row">
+        
+
+    <style>
+<style type="text/css">
+        .technical_division
+        {
+            margin-left: 20px;
+            border-bottom:none !important;
+        }
+.table{font-size: 14px;
+}
+th {
+    color: white !important;
+}
+    </style>    </style>
+
+
+
+
+
+
+
+          
+            <br>
+        <h4 class="Page_Name">Categories of Industries &gt; Orange Category</h4>
+        <br>
+         <div class="tabs-class">
+   <!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist" style="">
+    <li role="presentation"><a href="functions_consent_for_establishment_how_to_apply_2.html"> How to Apply?</a></li>
+    <li role="presentation"><a href="consent_management_consent_for_establishment_siting_criteria.html"> APPCB Siting Criteria</a></li>
+    <li role="presentation"><a href="consent_management_consent_for_establishment_categories_of_industries_3.html"> Categories of Industries</a></li>
+    <li role="presentation"><a href="consent_management_consent_for_establishment_fee_structure.html"> Fee Structure</a></li>
+     <li role="presentation"><a href="consent_management_consent_for_establishment_delegation_of_power.html"> Delegation of Power</a></li>
+     <li role="presentation"><a href="consent_management_consent_for_establishment_cfe_orders_issued_3.html"> CFE Orders Issued</a></li>
+     <li role="presentation"><a href="consent_management_consent_for_establishment_cfe_committee_meetings.html">  CFE Committee Meetings</a></li>             
+     </ul>
+  </div>
+  <br> <br>
+         <div>
+         <table class="gridtb table table-striped table-bordered tablestyle">
+  	 		<tbody><tr>
+  	 		    <th>S.No</th>
+  	 		    <th>Industry Sector</th>
+  	 		</tr>
+			
+ 	 	<tr>
+ 	 	   <td align="center">1</td>
+ 	 	   <td>Dismantling of rolling stocks ( wagons/ coaches)</td>
+ 	 	</tr>
+ 	 	
+ 	 		
+ 	 	<tr>
+ 	 	   <td align="center">2</td>
+ 	 	   <td>	Bakery and confectionery units with production capacity &gt; 1 TPD. ( With
+ovens / furnaces)</td>
+ 	 	</tr>
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">3</td>
+ 	 	   <td>	Chanachur and ladoo from puffed and beaten  rice( muri  and shira) using
+husk fired oven</td>
+ 	 	</tr>
+ 	 	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">4</td>
+ 	 	   <td>	Coated electrode manufacturing</td>
+ 	 	</tr>
+ 	 	
+ 	 	
+ 	 		
+ 	 	<tr>
+ 	 	   <td align="center">5</td>
+ 	 	   <td>	Compact  disc  computer  floppy and cassette manufacturing / Reel
+manufacturing</td>
+ 	 	</tr>
+ 	 	
+ 	 	
+ 	 	
+ 	 			
+ 	 	<tr>
+ 	 	   <td align="center">6</td>
+ 	 	   <td>Flakes from rejected PET bottle</td>
+ 	 	</tr>
+ 	 	
+ 	 	
+ 	 			
+ 	 	<tr>
+ 	 	   <td align="center">7</td>
+ 	 	   <td>Food and food processing including fruits and vegetable processing</td>
+ 	 	</tr>
+ 	 	
+ 	 	
+ 	 	
+ 	 			
+ 	 	<tr>
+ 	 	   <td align="center">8</td>
+ 	 	   <td>	Jute processing without dyeing</td>
+ 	 	</tr>
+ 	 	
+ 	 	
+ 	 			
+ 	 	<tr>
+ 	 	   <td align="center">9</td>
+ 	 	   <td>	Manufacturing of silica gel</td>
+ 	 	</tr>
+ 	 	
+ 	 	
+ 	 			
+ 	 	<tr>
+ 	 	   <td align="center">10</td>
+ 	 	   <td>Manufacturing of  tooth  powder, toothpaste, talcum powder and othercosmetic
+items</td>
+ 	 	</tr>
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">11</td>
+ 	 	   <td>Printing or etching of glass sheet using hydrofluoric acid</td>
+ 	 	</tr>
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">12</td>
+ 	 	   <td>	Silk screen printing, sari printing by wooden blocks</td>
+ 	 	</tr>
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">13</td>
+ 	 	   <td>
+ 	 	   Synthetic detergents and soaps(excluding formulation)<ul style="list-style-position: inside;list-style: lower-roman;">
+<li> This is the score for units  having generation of waste-waters less than
+100 KLD.</li>
+<li> The units having  waste- water generation more than 100 KLD will become
+mainly water polluting and accordingly normalized water pollution  score
+will be 75 and be  categorized  as Red.</li>
+			</ul>
+			
+			
+			
+			</td>
+ 	 	</tr>
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">14</td>
+ 	 	   <td>	Thermometer manufacturing</td>
+ 	 	</tr>
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">15</td>
+ 	 	   <td>Cotton  spinning  and  weaving  (medium and large scale)</td>
+ 	 	</tr>
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">16</td>
+ 	 	   <td>Almirah,  Grill Manufacturing (Dry Mechanical Process )
+Air  pollution due to spray painting (emissions of VOCs). Units without
+painting operations shall be categorized  as White.</td>
+ 	 	</tr>
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">17</td>
+ 	 	   <td>Aluminium &amp; copper extraction from scrap  using  oil  fired  furnace  (dry
+process only)</td>
+ 	 	</tr>
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">18</td>
+ 	 	   <td>Automobile servicing, repairing and painting (excluding only fuel
+dispensing) Normal water &amp; air polluting and recyclable waste oil generating. If the
+waste water generation is more than 100 KLD,  it  will  become  mainly
+water   polluting   and Red category unit.</td>
+ 	 	</tr>
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">19</td>
+ 	 	   <td>	Ayurvedic and homeopathic medicine</td>
+ 	 	</tr>
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">20</td>
+ 	 	   <td>Brickfields  ( excluding fly ash brick manufacturing using lime process)</td>
+ 	 	</tr>
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">21</td>
+ 	 	   <td>	Building  and  construction  project more than 20,000 sq. m built up area
+<ol style="list-style:decimal;list-style-position: inside;"><li> In  the  pre-construction stage, it is mainly air polluting due to
+generation of dust (PM) emissions.</li>
+<li> After construction, it is mainly water polluting. If the discharge is
+more than 100 KLD, it will be having the normalized score of 75 and be
+categorized as Red.</li></ol></td>
+ 	 	</tr>
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">22</td>
+ 	 	   <td>	Building  and  construction  project more than 20,000 sq. m built up area
+<ul style="list-style:lower-roman;list-style-position: inside;"><li> Mainly air polluting industry.</li>
+<li> This score is for the units having coal consumption &lt; than 12 MT/day.</li>
+ 	<li>For the units  having coal consumption &gt; 12 MT /day, the normalized air pollution score  will be 62.5 and shall be categorized as Red.</li>
+ 	
+ 	</ul>
+	 	
+	 	
+	 	</td>
+ 	 	</tr>
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">23</td>
+ 	 	   <td>Coal washeries</td>
+ 	 	</tr>
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">24</td>
+ 	 	   <td>		Dairy and dairy products ( small scale)</td>
+ 	 	</tr>
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">25</td>
+ 	 	   <td>DG set of capacity &gt; 1MVA but &lt; 5MVA</td>
+ 	 	</tr>
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">26</td>
+ 	 	   <td>	Dry coal processing, mineral processing, industries involving ore sintering,
+pelletisating, grinding  &amp; pulverization</td>
+ 	 	</tr>
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">27</td>
+ 	 	   <td>Fermentation industry including manufacture of yeast, beer, distillation of
+alcohol (Extra Neutral Alcohol)<ul style="list-style: lower-roman;list-style-position: inside;"><li>
+ Mainly water polluting industry. This is the normalized water pollution
+			   score for units having discharge &lt; 100 KLD..</li>
+<li>For the units having discharge  &gt; 100 KLD, the normalized  water
+pollution score will be 75 and shall be accordingly categorized as Red.</li>
+			   </ul>
+	 	</td>
+ 	 	</tr>
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">28</td>
+ 	 	   <td>Ferrous and Non-  ferrous  metal extraction involving different furnaces
+through melting, refining, re-processing,  casting  and  alloy- making
+			   <ul style="list-style: lower-roman;list-style-position: inside;"><li> Mainly air polluting.</li>
+<li> This score is applicable to secondary production of    ferrous   &amp;  non-ferrous metals (excluding lead) up –to 1 MT/hour production.</li>
+<li> For lead, the normalized air pollution score will be = (100*25)/40=62.5 and is categorized as Red.</li>
+<li> For Induction Furnace clubbed with AOD furnace – separate calculation shall be made based on the capacity of the furnaces. In such industries, the molten metal from induction furnace is transferred to AOD furnace where other metals like manganese and nickel are added  to get the metal of desired constituents. The lime and silicon are also added for reduction of  the metal oxides to the base metal. the  normalized air pollution score will be = (100*25)/40=62.5 and is categorized as Red.</li>
+			   </ul>
+	 	</td>
+ 	 	</tr>
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">29</td>
+ 	 	   <td>
+ 	 	   Fertilizer (granulation / formulation / blending only)
+ 	 	   	
+ 	 	   			</td>
+ 	 	</tr>
+ 	 	
+ 	 	
+ 	  	<tr>
+ 	 	   <td align="center">30</td>
+ 	 	   <td>Fish feed, poultry feed and cattle feed</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">31</td>
+ 	 	   <td>Fish processing and packing (excluding chilling of fishes)</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">32</td>
+ 	 	   <td>	Forging of ferrous and non- ferrous metals  (  using  oil  and  gas  fired furnaces)</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">33</td>
+ 	 	   <td>	Formulation/pelletization of camphor tablets, naphthalene balls from camphor/ naphthalene powders.</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">34</td>
+ 	 	   <td>Glass ceramics, earthen potteries and tile manufacturing using oil and  as fired kilns, coating on glasses using cerium fluorides and magnesium fluoride etc.</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">35</td>
+ 	 	   <td>Gravure printing, digital printing on flex, vinyl</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">36</td>
+ 	 	   <td>	Heat treatment using oil fired furnace ( without cyaniding)</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">37</td>
+ 	 	   <td>Hot mix plants</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">38</td>
+ 	 	   <td>Hotels (&lt; 3 star) or hotels having ≷ 20 rooms and less than 100 rooms.</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">39</td>
+ 	 	   <td>Ice cream</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">40</td>
+ 	 	   <td>Industries  engaged  in  recycling  / reprocessing/ recovery/reuse of Hazardous Waste under schedule iv of HW( M, H&amp; TBM) rules, 2008 –  Items namely – Paint and ink Sludge/residues</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">41</td>
+ 	 	   <td>Industries engaged in recycling / reprocessing/recovery/reuse of Hazardous Waste under schedule iv of HW( M, H&amp; TBM) rules, 2008 –  Items  namely  –  Brass  Dross,  Copper Dross,, Copper Oxide Mill Scale,, Copper Reverts, Cake &amp; Residues,, Waste Copper and copper alloys in Dispersible form,, Slags  from copper processing for further  processing  or  refining, Insulated Copper Wire,, Scrap/copper with PVC sheathing including ISRI-code material
+namely “Druid”,  Jelly filled Copper cables, Zinc  Dross-Hot  dip Galvanizers SLAB,, Zinc Dross-Bottom Dross,, Zinc ash/Skimming arising from galvanizing and die casting operations,, Zinc ash/Skimming/other zinc bearing wastes   arising from smelting and refining,, Zinc  ash  and
+residues  including zinc alloy  residues  in   dispersible from ,,</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">42</td>
+ 	 	   <td>	Industry or processes involving foundry operations<ul style="list-style: lower-roman;list-style-position: inside;">
+<li>This score is valid for the foundries having capacity &lt; 5 MT/hr as such units  require the coal/coke @ &lt; 500 kg/hr.</li>
+<li>The units having capacity of 5 MT/hr and more, the coal/coke consumption will be more than 500 kg/hr and the normalized score will be 62.5 and classified accordingly as Red.</li></ul></td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">43</td>
+ 	 	   <td>	Lime manufacturing (using lime kiln)</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">44</td>
+ 	 	   <td>	Liquid floor cleaner, black  phenyl, liquid soap, glycerol mono-stearate manufacturing
+Both air and water pollution are generated</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">45</td>
+ 	 	   <td>	Manufacturing of glass<ul style="list-style: lower-roman;list-style-position: inside;">
+			   <li>Mainly air polluting (melting at 1500ºC and refining .)</li>
+<li>In case of lead glass , the score of  A1 will be 25 and accordingly the normalized scores will be 62.5 i.e. Red</li></ul></td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">46</td>
+ 	 	   <td>Manufacturing of iodized salt from crude/ raw salt</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">47</td>
+ 	 	   <td>Manufacturing of mirror from sheet glass</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">48</td>
+ 	 	   <td>	Manufacturing of mosquito repellent coil</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">49</td>
+ 	 	   <td>	Manufacturing of Starch/Sago</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">50</td>
+ 	 	   <td>Mechanized  laundry  using  oil  fired boiler</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">51</td>
+ 	 	   <td>Modular wooden furniture  from particle board, MDF&lt; swan timber etc, Ceiling tiles/ partition board from saw dust,  wood  chips  etc.,  and   other agricultural waste using  synthetic adhesive resin, wooden box  making (With boiler)<br>
+1. Mainly air polluting. Boiler as well as VOCs from use of adhesives.<br>
+2. Without boiler, it will  be  a  Green  category industry.</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">52</td>
+ 	 	   <td>		New highway construction project</td>
+ 	 	</tr>	
+ 	 	
+ 	 		<tr>
+ 	 	   <td align="center">53</td>
+ 	 	   <td>	Non-alcoholic beverages(soft drink)  &amp;  bottling  of  alcohol/non alcoholic products<ul style="list-style: lower-roman;list-style-position: inside;">
+<li> Both air and water polluting. Score is normalized with air &amp; water pollution. This score is valid for industries having waste-water generation &lt; 100 KLD.</li>
+<li> For the units having waste-water generation &gt; 100 KLD the , normalized
+	score would be 62.5   and categorized as Red.</li></ul></td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 		<tr>
+ 	 	   <td align="center">54</td>
+ 	 	   <td>	Paint blending and mixing (Ball mill)</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 		<tr>
+ 	 	   <td align="center">55</td>
+ 	 	   <td>Paints and varnishes (mixing and blending)</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	
+ 	 		<tr>
+ 	 	   <td align="center">56</td>
+ 	 	   <td>Ply-board  manufacturing(  including Veneer and laminate) with oil fired boiler/ thermic fluid heater(without resin plant)</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 		<tr>
+ 	 	   <td align="center">57</td>
+ 	 	   <td>Potable alcohol ( IMFL) by blending, bottling of alcohol products</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 		<tr>
+ 	 	   <td align="center">58</td>
+ 	 	   <td>Printing ink manufacturing</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 		<tr>
+ 	 	   <td align="center">59</td>
+ 	 	   <td>	Printing press</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">60</td>
+ 	 	   <td>Reprocessing of waste   plastic including PVC</td>
+ 	 	</tr>	
+ 	 	
+ 	 		
+ 	 	<tr>
+ 	 	   <td align="center">61</td>
+ 	 	   <td>Rolling mill (oil or coal fired) and cold rolling mill</td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">62</td>
+ 	 	   <td>Spray  painting,  paint  baking,  paint shipping</td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">63</td>
+ 	 	   <td>Steel  and  steel  products  using various furnaces like blast furnace /open  hearth furnace/induction furnace/arc furnace/submerged arc  furnace /basic oxygen furnace /hot rolling reheated furnace</td>
+ 	 	</tr>	
+ 	 	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">64</td>
+ 	 	   <td>Stone crushers</td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">65</td>
+ 	 	   <td>Surgical and  medical products including prophylactics and latex</td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">66</td>
+ 	 	   <td>Tephlon based products</td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">67</td>
+ 	 	   <td>Thermocol manufacturing  ( with boiler)</td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">68</td>
+ 	 	   <td>Tobacco products including cigarettes and tobacco/opium processes</td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">69</td>
+ 	 	   <td>Transformer repairing/ manufacturing ( dry process only)</td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">70</td>
+ 	 	   <td>Tyres  and  tubes  vulcanization/  hot retreating</td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">71</td>
+ 	 	   <td>Vegetable oil manufacturing including solvent extraction and refinery / hydrogenated oils<ul style="list-style-position:inside;">
+<li> All sorts of pollution are generated.</li>
+<li> This score is valid for plants having waste-water generation &lt; 100 KLD.</li>
+<li> If the waste-water generation is more than 100 KLD, the unit shall be
+classified as Red.</li></ul></td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">72</td>
+ 	 	   <td>Wire drawing and wire netting</td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">73</td>
+ 	 	   <td>	Dry cell battery ( excluding manufacturing of electrodes) and assembling &amp;
+charging of acid lead battery on micro scale</td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">74</td>
+ 	 	   <td>
+           Pharmaceutical formulation and for R &amp; D purpose ( For sustained  release/
+extended release of drugs only and not for commercial purpose)<ul style="list-style-position:inside;">
+<li> All sorts of pollution are generated.</li>
+<li>  R&amp;D activities are to be shifted to Red category.</li>
+</ul>
+           
+           </td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">76</td>
+ 	 	   <td>Synthetic resins</td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">77</td>
+ 	 	   <td>Synthetic rubber excluding molding</td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">78</td>
+ 	 	   <td>	Cashew nut processing</td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">79</td>
+ 	 	   <td>Coffee seed processing</td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">80</td>
+ 	 	   <td>
+           
+           Parboiled Rice Mills<ul style="list-style-position:inside;">
+<li> Rice Mills are generating both air and water pollution. Waste-waters are
+having high strength  in respect  of BOD.</li>
+<li> This is  the normalized air &amp; water  pollution score for units   having
+waste-water generation &lt;  100  KLD  and  fuel consumption less than 12 MTD.</li>
+<li> For units having waste-water generation &gt; 100 KLD or fuel consumption &gt;
+12 MTD or both, the unit shall be classified as Red.</li>
+           </ul>
+           </td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">81</td>
+ 	 	   <td>	Foam manufacturing</td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">82</td>
+ 	 	   <td>Industries engaged in recycling / reprocessing/ recovery/reuse of Hazardous
+Waste under schedule iv of HW( M, H&amp; TBM) rules, 2008 –  Items namely –
+Used  Oil  –  As  per  specifications prescribed from time  to time.</td>
+ 	 	</tr>	
+ 	 	
+ 	 	<tr>
+ 	 	   <td align="center">82</td>
+ 	 	   <td>Industries engaged in recycling / reprocessing/ recovery/reuse of Hazardous
+Waste under schedule iv of HW( M, H&amp; TBM) rules, 2008 – Items namely –
+Waste  Oil  – As  per  specifications prescribed from time to time.</td>
+ 	 	</tr>	
+ 	 	
+        <tr>
+       <td align="center">83</td> 
+        <td>Producer gas plant using conventional up drift coal gasification ( linked
+to rolling mills glass and ceramic industry refectories for dedicated fuel
+supply)</td>
+        </tr>
+ 	 	
+  	 	</tbody></table></div>
+                                                                        
+    </div>
+    <section> <div><div class='footer' style='padding: 10px;'><div class='row'><div class='col-12 col-sm-6 col-lg-4 mt-4 mt-sm-0'><div class='footer-widget-item'><h3>Know More</h3><ul class='footer-widget-link'><li><a href='../PCB/CopyRightPolicy.html' target='_blank'><i class='fa fa-angle-double-right'></i> Copyright Policy</a></li><li><a href='../PCB/PrivacyPolicy.html' target='_blank'><i class='fa fa-angle-double-right'></i> Privacy Policy</a></li></ul></div></div><div class='col-12 col-sm-6 col-lg-4 mt-4 mt-sm-0'><div class='footer-widget-item'><h3>Government Portals</h3><ul class='footer-widget-link'><li><a href='https://www.ap.gov.in/' target='_blank'><i class='fa fa-angle-double-right'></i> AP State Portal</a></li><li><a href='https://www.meekosam.ap.gov.in/' target='_blank'><i class='fa fa-angle-double-right'></i>  Public Grievance Redressal System (PGRS) </a></li><li><a href='https://cdma.ap.gov.in/' target='_blank'><i class='fa fa-angle-double-right'></i> Municipal Administration &amp; Urban Development</a></li><li><a href='http://www.apeprocurement.gov.in/' target='_blank'><i class='fa fa-angle-double-right'></i> AP eProcurement Portal</a></li></ul></div></div><div class='col-12 col-sm-6 col-lg-4 mt-4 mt-sm-0'><div class='footer-widget-item'><h3>Get In Touch</h3><ul class='footer-widget-link get_touch'><a href='https://maps.app.goo.gl/fpByRQ3h8RDABRM69' target='_blank' style='color:#fff;'><h4><i class='fa fa-map-marker'></i> Office Address</h4></a><li>Andhra Pradesh Pollution Control Board,</li><li style='text-align:left;'>Paryavaran Bhavan,</li><li>APIIC Colony Road,Gurunanak Colony,</li><li>Autonagar,Vijayawada- 520007. </ul></div></div></div></div></div></section>
+
+    <div class='fcopy' style='border-top: 1px solid #2098d1; width: 100%;'>
+        <div class='' style="background: #0c1f38;">
+            <div class='row'>
+                <div class='col-sm-6 col-md-6'>
+                    <p class='ftex' style='margin: 0 0 0px; color: #fff; font-size: 14px; background: #0c1f38; padding: 10px;'>
+                        APPCB - Copyright ©2019. All rights reserved.<asp:Label runat="server" ID="lblVisitorsCount"
+                                                                                Style=""> </asp:Label>
+                    </p>
+                </div>
+                <div class='col-sm-6 col-md-6'>
+                    <div class="pull-right">
+                        <p style="line-height: 36px; color: #fff; font-size: 14px !important; margin: 0px;">
+                            Designed and Developed by <a href="https://aponline.gov.in/apportal/index.asp" target="_blank">
+                                <img src='../images/aponline-logo.png' alt="AP ONLINE" />
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/bootstrap-hover-dropdown.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script src="../js/jquery.bootstrap.newsbox.js" type="text/javascript"></script>
+    <script src="../js/jquery.bootstrap.newsbox.min.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery.md5.min.js" type="text/javascript"></script>
+    <script src="../Scripts/EncryptDecrypt.js" type="text/javascript"></script>
+    <!-- Footer Section ends -->
+    <script type="text/javascript">
+        $(".panel-heading").addClass("hvr-shutter-out-horizontal");
+
+        $(".panel-heading").addClass("hvr - icon - back");
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            $(".demo1").bootstrapNews({
+                newsPerPage: 4,
+                autoplay: true,
+                pauseOnHover: true,
+                direction: 'up',
+                newsTickerInterval: 1000,
+                onToDo: function () {
+                    //console.log(this);
+                }
+            });
+        });
+        $(function () {
+            $(".demo2").bootstrapNews({
+                newsPerPage: 4,
+                autoplay: true,
+                pauseOnHover: true,
+                direction: 'up',
+                newsTickerInterval: 1000,
+                onToDo: function () {
+                    //console.log(this);
+                }
+            });
+        });
+        $(function () {
+            $(".demo3").bootstrapNews({
+                newsPerPage: 4,
+                autoplay: true,
+                pauseOnHover: true,
+                direction: 'up',
+                newsTickerInterval: 1000,
+                onToDo: function () {
+                    //console.log(this);
+                }
+            });
+        });
+        $(function () {
+            $(".demo4").bootstrapNews({
+                newsPerPage: 4,
+                autoplay: true,
+                pauseOnHover: true,
+                direction: 'up',
+                newsTickerInterval: 1000,
+                onToDo: function () {
+                    //console.log(this);
+                }
+            });
+        });
+    </script>
+    <script src="../slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('.customer-logos').slick({
+                slidesToShow: 9,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 500,
+                arrows: false,
+                dots: false,
+                pauseOnHover: true,
+
+            });
+        });
+    </script>
+    <!-- Calendar Js -->
+    <script src="../CalenderJS/jquery.ui.core.js" type="text/javascript"></script>
+    <script src="../CalenderJS/jquery.ui.datepicker.js" type="text/javascript"></script>
+    <script src="../CalenderJS/jquery.ui.widget.js" type="text/javascript"></script>
+    <link href="../Scripts/select2.min.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/select2.min.js" type="text/javascript"></script>
+    <script src="../Scripts/MaxLength.min.js" type="text/javascript"></script>
+    
+</body>
+</html>

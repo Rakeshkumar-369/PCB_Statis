@@ -1,0 +1,33 @@
+﻿p {
+    color: black;
+}
+
+hr {
+    color: black !important;
+}
+
+.align {
+    color: #656565;
+    font-weight: 500;
+}
+
+.anchor {
+    color: darkblue !important;
+}
+
+.divcontent {
+    background: url("#");
+    min-height: 346px;
+    background-size: cover;
+    text-align: justify;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.div {
+    overflow-y: scroll;
+    max-height: 300px;
+}
+
+
