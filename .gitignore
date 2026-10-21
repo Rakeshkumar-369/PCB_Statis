@@ -3,3 +3,5 @@ APPCBDOCS
 .freebuff
 AGENTS.md
 .openclaw-attachments
+.agents/
+.cluster/
